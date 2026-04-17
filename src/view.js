@@ -92,7 +92,9 @@ function updateCapitalMarker(svgEl, currentView, hestias, projection) {
   text.textContent = hestia.capital;
   g.appendChild(text);
 
-  svgEl.appendChild(g);
+  // Append to content group so it transforms with the map
+  const contentGroup = svgEl.querySelector('#map-content');
+  (contentGroup || svgEl).appendChild(g);
 }
 
 export function renderLegend(currentView, hestias, standings) {

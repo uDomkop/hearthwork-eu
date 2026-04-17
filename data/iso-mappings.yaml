@@ -51,7 +51,13 @@ numericToAlpha3:
   804: UKR
   807: MKD
   826: GBR
+  840: USA
   983: XKX
+
+  # Non-European strategic partners
+  124: CAN
+  392: JPN
+  410: KOR
 
 # Fallback: some features (notably Kosovo) have no numeric ISO code because
 # their status is contested. Match on feature.properties.name instead.
