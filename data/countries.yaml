@@ -384,13 +384,15 @@ UKR:
     War-shaped accelerated path; transitioning to Member. Crimea and parts of
     eastern Ukraine remain under Russian occupation — the Charter recognises
     Ukraine's internationally recognised borders.
-  hestias: { fiscal: 0, shield: 1, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 0, green: 0, bench: 0, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     shield: Full participant — frontline state; de facto security guarantees via bilateral agreements.
+    atlas: Major agricultural exporter — breadbasket of Europe; grain corridor vital for global food security.
     green: Non-participant — war has devastated energy infrastructure; reconstruction prioritised over transition.
     spring: Dnipro basin and Black Sea watershed; major transboundary water role.
     anchor: Black Sea and Azov Sea coastline; wartime naval significance.
     forge: Pre-war industrial base (steel, aerospace) being rebuilt with EU integration in mind.
+    gate: Ukraine's population has been integrated into the Schengen area since 2017 via visa-free regime; full Schengen membership is a natural next step.
 
 MDA:
   name: Moldova
@@ -488,9 +490,10 @@ TUR:
   name: Türkiye
   standing: outer-assoc
   note: Customs union maintained; long-standing impasse settled
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 1, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
-    anchor: Full participant — controls the Bosphorus and Dardanelles; major naval power; NATO’s largest Mediterranean fleet.
+    anchor: Full participant — controls the Bosphorus and Dardanelles; major naval power; NATO's largest Mediterranean fleet.
+    atlas: Major agricultural producer — Anatolia is a breadbasket region; significant cereal, fruit, and livestock output.
     pharmacy: Partial — growing pharmaceutical manufacturing sector.
     beacon: Partial — Horizon Europe associated country; strong university system.
 
