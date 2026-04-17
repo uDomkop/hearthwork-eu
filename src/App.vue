@@ -1,12 +1,17 @@
 <script setup lang="ts">
 import SiteNav from './components/SiteNav.vue';
 import { useRoute } from 'vue-router';
+import { useTheme } from './composables/useTheme';
 
 const route = useRoute();
+const { theme, toggle } = useTheme();
 </script>
 
 <template>
   <header>
+    <button class="theme-toggle" @click="toggle" :title="theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'">
+      {{ theme === 'light' ? '☽' : '☀' }}
+    </button>
     <h1>Hearthwork EU</h1>
     <p class="subtitle">Charter standings and the fires that burn</p>
     <p v-if="route.path === '/'" class="epigraph">From many, one. From one, many.</p>

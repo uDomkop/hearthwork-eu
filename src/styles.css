@@ -15,6 +15,37 @@
   --non: #d8d4cc;
   --eu-non: #b8b4ac;
   --suspended: #a85454;
+
+  --border-subtle: rgba(26, 22, 18, 0.1);
+  --border-faint: rgba(26, 22, 18, 0.08);
+  --bg-subtle: rgba(26, 22, 18, 0.03);
+  --bg-btn-inactive: rgba(26, 22, 18, 0.04);
+  --water: rgba(107, 138, 166, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg: #0f1419;
+  --ink: #d4dae3;
+  --ember: #6b8fd4;
+  --ember-glow: #7fa0e0;
+  --hearth: #8ab4f8;
+  --ash: #8a9aad;
+  --paper: #1a2030;
+  --shadow: rgba(0, 0, 0, 0.4);
+
+  --member: #6b8fd4;
+  --inner-assoc: #8aaddb;
+  --outer-assoc: #7fb87f;
+  --strategic: #c9a55a;
+  --non: #3a3d42;
+  --eu-non: #2a2d32;
+  --suspended: #c45c5c;
+
+  --border-subtle: rgba(200, 210, 225, 0.12);
+  --border-faint: rgba(200, 210, 225, 0.08);
+  --bg-subtle: rgba(200, 210, 225, 0.04);
+  --bg-btn-inactive: rgba(200, 210, 225, 0.06);
+  --water: rgba(40, 60, 90, 0.3);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,16 +62,39 @@ html, body {
 
 body {
   background-image:
-    radial-gradient(ellipse at top, rgba(0, 51, 153, 0.06) 0%, transparent 60%),
-    radial-gradient(ellipse at bottom, rgba(0, 34, 102, 0.04) 0%, transparent 50%);
+    radial-gradient(ellipse at top, color-mix(in srgb, var(--ember) 6%, transparent) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom, color-mix(in srgb, var(--hearth) 4%, transparent) 0%, transparent 50%);
 }
 
 header {
   text-align: center;
   padding: 28px 20px 16px;
-  border-bottom: 1px solid rgba(26, 22, 18, 0.1);
+  border-bottom: 1px solid var(--border-subtle);
   box-shadow: 0 2px 8px var(--shadow);
   background: var(--paper);
+  position: relative;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: 1px solid var(--border-subtle);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.theme-toggle:hover {
+  background: var(--bg-subtle);
 }
 
 h1 {
@@ -352,7 +406,7 @@ h1 {
 }
 
 .country-water {
-  fill: rgba(107, 138, 166, 0.1);
+  fill: var(--water);
 }
 
 /* Pulse animation for selected Hestia participants */
