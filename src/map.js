@@ -38,6 +38,30 @@ export function drawMap(world, countryData, isoMappings, onSelect, onNonFramewor
   ocean.setAttribute('class', 'country-water');
   svg.appendChild(ocean);
 
+  // Stripe pattern for aspirant countries
+  const defs = document.createElementNS(SVG_NS, 'defs');
+  const pattern = document.createElementNS(SVG_NS, 'pattern');
+  pattern.setAttribute('id', 'pattern-aspirant');
+  pattern.setAttribute('patternUnits', 'userSpaceOnUse');
+  pattern.setAttribute('width', '6');
+  pattern.setAttribute('height', '6');
+  pattern.setAttribute('patternTransform', 'rotate(45)');
+  const rect = document.createElementNS(SVG_NS, 'rect');
+  rect.setAttribute('width', '6');
+  rect.setAttribute('height', '6');
+  rect.setAttribute('fill', '#8aa68a');
+  pattern.appendChild(rect);
+  const line = document.createElementNS(SVG_NS, 'line');
+  line.setAttribute('x1', '0');
+  line.setAttribute('y1', '0');
+  line.setAttribute('x2', '0');
+  line.setAttribute('y2', '6');
+  line.setAttribute('stroke', '#2854ab');
+  line.setAttribute('stroke-width', '2.5');
+  pattern.appendChild(line);
+  defs.appendChild(pattern);
+  svg.appendChild(defs);
+
   // Draw countries
   countries.forEach(feat => {
     const alpha3 = lookupAlpha3(feat, isoMappings);
@@ -49,6 +73,9 @@ export function drawMap(world, countryData, isoMappings, onSelect, onNonFramewor
     path.setAttribute('d', pathData);
     path.setAttribute('class', data ? 'country' : 'country country-non-eu');
     path.setAttribute('data-alpha3', alpha3 || '');
+    if (data && data.aspirant) {
+      path.setAttribute('data-aspirant', 'true');
+    }
     const featureName = (feat.properties && feat.properties.name) || '';
     path.setAttribute('data-name', featureName);
 

@@ -350,6 +350,16 @@ h1 {
   flex-shrink: 0;
 }
 
+.legend-swatch-aspirant {
+  background: repeating-linear-gradient(
+    45deg,
+    #8aa68a,
+    #8aa68a 2px,
+    #2854ab 2px,
+    #2854ab 4px
+  );
+}
+
 .legend-text { font-size: 14px; }
 
 .legend-explanation {
