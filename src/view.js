@@ -34,9 +34,6 @@ export function applyView(svgEl, currentView, selectedCountry, countryData, stan
         el.style.fill = 'var(--ember)';
         el.style.opacity = '1';
         el.classList.add('hestia-active');
-      } else if (participation === 0.5) {
-        el.style.fill = 'var(--ember-glow)';
-        el.style.opacity = '0.7';
       } else {
         el.style.fill = 'var(--non)';
         el.style.opacity = '0.5';
@@ -73,7 +70,6 @@ export function renderLegend(currentView, hestias, standings) {
     titleEl.textContent = label + ' — ' + desc;
     gridEl.innerHTML = `
       <div class="legend-item"><div class="legend-swatch" style="background: var(--ember);"></div><div class="legend-text">Full participant</div></div>
-      <div class="legend-item"><div class="legend-swatch" style="background: var(--ember-glow); opacity: 0.7;"></div><div class="legend-text">Partial / transitioning</div></div>
       <div class="legend-item"><div class="legend-swatch" style="background: var(--non); opacity: 0.5;"></div><div class="legend-text">Non-participant</div></div>
       ${explanation ? `<div class="legend-explanation">${explanation}</div>` : ''}
     `;

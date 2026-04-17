@@ -492,7 +492,7 @@ h1 {
 }
 
 .mark-full { color: var(--ember); }
-.mark-partial { color: #4d6fbf; }
+
 .mark-none { color: var(--ash); opacity: 0.5; }
 
 .hestia-name {

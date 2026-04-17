@@ -14,8 +14,7 @@
     Participants share a common currency, coordinate budgetary policy through
     the Stability and Growth Pact successor framework, and contribute to a
     common fiscal capacity for asymmetric shocks. Full participants have adopted
-    the euro; partial participants are in ERM II or have a formal convergence
-    programme. Non-participants retain their own currency with no obligation to
+    the euro. Non-participants retain their own currency with no obligation to
     join.
 
 - key: krone
@@ -41,9 +40,7 @@
     military planning, and interoperability standards. It builds on the existing
     PESCO framework but adds binding procurement commitments and a mutual
     defence clause stronger than NATO Article 5 for intra-Union conflicts.
-    States with constitutional neutrality (Austria, Ireland, Malta) may opt out
-    entirely or participate partially in procurement without the mutual defence
-    obligation.
+    States with constitutional neutrality (Austria, Ireland, Malta) opt out.
 
 - key: gate
   label: Gate
@@ -53,9 +50,7 @@
     The Gate absorbs and extends the Schengen acquis: passport-free travel,
     common visa policy, shared external border management via Frontex, and the
     Schengen Information System. Full participants remove internal border
-    controls entirely. Partial participants are in the process of accession or
-    maintain temporary border controls under the safeguard clause. Non-
-    participants maintain their own border regime.
+    controls entirely. Non-participants maintain their own border regime.
 
 - key: atlas
   label: Atlas
@@ -66,9 +61,8 @@
     tradition. Participants jointly fund launcher development, satellite
     programmes, Earth observation, and space situational awareness. Full
     participation means contribution to the common space budget and access to
-    all programme data; partial participation covers specific programmes only.
-    The Hestia preserves ESA's tradition of juste retour while adding a
-    strategic autonomy objective for launch capability.
+    all programme data. The Hestia preserves ESA's tradition of juste retour
+    while adding a strategic autonomy objective for launch capability.
 
 - key: anchor
   label: Anchor
@@ -80,8 +74,7 @@
     and protection of exclusive economic zones. Particularly relevant for
     Mediterranean, Atlantic, Baltic, and Arctic-facing states. Full
     participation implies commitment to joint patrols and shared maritime
-    domain awareness; partial participation covers information-sharing and
-    training.
+    domain awareness.
 
 - key: bench
   label: Bench
@@ -93,8 +86,7 @@
     cross-border evidence procedures, and minimum standards for criminal
     procedural rights. Full participation requires alignment with the rule of
     law mechanism and the CJEU's jurisdiction over judicial cooperation
-    matters. Partial participation may exclude criminal matters or limit mutual
-    recognition to civil and commercial cases.
+    matters.
 
 - key: green
   label: Green
@@ -105,8 +97,7 @@
     binding emissions reduction targets, carbon pricing through the ETS, the
     Carbon Border Adjustment Mechanism, renewable energy mandates, and a Just
     Transition Fund for coal-dependent regions. Full participants accept all
-    obligations; partial participants may have transitional derogations for
-    heavy industry or energy-poor regions.
+    obligations.
 
 - key: forge
   label: Forge
@@ -130,8 +121,7 @@
     AI regulation, platform governance, telecommunications interoperability,
     digital identity, and cybersecurity standards. Full participants adopt the
     complete digital acquis and contribute to the digital sovereignty fund.
-    Partial participation may cover data protection and cybersecurity without
-    the full AI governance framework.
+
 
 - key: library
   label: Library
@@ -167,8 +157,7 @@
     procurement, pandemic preparedness through HERA, cross-border patient
     rights, mutual recognition of medical qualifications, and coordination of
     health technology assessment. Full participants commit to joint stockpiling
-    and shared procurement; partial participants may limit participation to
-    pandemic response and cross-border care.
+    and shared procurement.
 
 - key: beacon
   label: Beacon
@@ -179,8 +168,7 @@
     Europe. Participants fund and access joint research programmes, shared
     research infrastructure (CERN model), and innovation transfer networks.
     Full participation means contribution to the common research budget and
-    full access to results; partial participation covers associated-country
-    status in specific programmes.
+    full access to results.
 
 - key: lattice
   label: Lattice
@@ -192,8 +180,7 @@
     and coordinated energy market coupling. It operationalises the physical
     infrastructure that makes the Green Hestia's policy targets achievable.
     Full participation requires commitment to interconnection capacity targets
-    and shared grid investment; partial participation covers market coupling
-    without infrastructure obligations.
+    and shared grid investment.
 
 - key: lyre
   label: Lyre

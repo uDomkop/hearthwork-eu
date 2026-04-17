@@ -49,7 +49,7 @@ YAML data files are imported at build time via `@rollup/plugin-yaml` (configured
 `data/countries.yaml` is the master registry — keyed by ISO alpha-3 code, each entry has:
 - `standing`: `"member"` | `"inner-assoc"` | `"outer-assoc"` | `"strategic"`
 - `note`: policy context string
-- `hestias`: object with 16 participation values: `1` (full), `0.5` (partial), `0` (none)
+- `hestias`: object with 16 participation values: `1` (full) or `0` (none)
 - `reasons` (optional): object mapping Hestia key → explanation string (only notable entries)
 - `aspirant` (optional): `"member"` (IUA aspiring to Member) or `"iua"` (OUA aspiring to IUA) — shown as striped pattern on map
 

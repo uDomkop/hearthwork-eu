@@ -1,12 +1,12 @@
 # Country records keyed by ISO alpha-3.
 # Standings: member | inner-assoc | outer-assoc | strategic
-# Hestia participation values: 1 (full) | 0.5 (partial) | 0 (none)
+# Hestia participation values: 1 (full) | 0 (none)
 # All 16 Hestias must be present for each country; missing keys are treated as 0.
 #
 # `reasons:` is optional. Only include entries for Hestias where the country's
 # participation level is notable or surprising — e.g. non-participation due to
-# neutrality, partial participation due to political disputes, or a distinctive
-# role that sets the country apart. Omit routine/obvious entries.
+# neutrality, a distinctive role, or context that is not obvious from the
+# standing alone. Omit routine/obvious entries.
 
 # === MEMBERS ===
 
@@ -35,7 +35,7 @@ NLD:
   name: Netherlands
   standing: member
   note: Full participant across the board
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 0.5, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 1 }
   reasons:
     forge: Service-oriented economy; limited heavy manufacturing base.
     spring: Rhine delta; extreme flood vulnerability makes water cooperation existential.
@@ -54,7 +54,7 @@ LUX:
   name: Luxembourg
   standing: member
   note: Founding Member, all in
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 0.5, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 0, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
   reasons:
     anchor: Landlocked — no maritime coastline.
     forge: Financial services economy; limited manufacturing base.
@@ -75,7 +75,7 @@ ESP:
   name: Spain
   standing: member
   note: Full participation
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 1 }
   reasons:
     spring: Semi-arid south limits transboundary river scope; domestic water stress is the main challenge.
     anchor: Major Mediterranean and Atlantic coastline; naval tradition.
@@ -84,7 +84,7 @@ PRT:
   name: Portugal
   standing: member
   note: Full participation
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 0.5, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 0, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     atlas: Participates in ESA but smaller contribution than core funders.
     forge: Limited heavy industrial base; economy oriented toward services and tourism.
@@ -95,7 +95,7 @@ AUT:
   name: Austria
   standing: member
   note: Constitutional neutrality keeps it out of the Shield
-  hestias: { fiscal: 1, shield: 0, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 1, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 0, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 0 }
   reasons:
     shield: Constitutional neutrality (1955 State Treaty) prohibits mutual defence obligations.
     anchor: Landlocked — no maritime coastline.
@@ -107,7 +107,7 @@ IRL:
   name: Ireland
   standing: member
   note: Neutrality + island position; outside Shield and Gate
-  hestias: { fiscal: 1, shield: 0, gate: 0, loom: 1, green: 0.5, bench: 1, atlas: 1, forge: 0.5, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 0, gate: 0, loom: 1, green: 0, bench: 1, atlas: 1, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 0 }
   reasons:
     shield: Constitutional neutrality and long-standing non-alignment tradition.
     gate: Not in Schengen — common travel area with the UK pre-dates and overrides Schengen.
@@ -120,7 +120,7 @@ FIN:
   name: Finland
   standing: member
   note: Recent NATO entry — all in
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
   reasons:
     shield: Joined NATO in 2023 after decades of non-alignment; 1,340 km border with Russia.
     spring: Limited transboundary basins; strong domestic water management.
@@ -129,7 +129,7 @@ EST:
   name: Estonia
   standing: member
   note: Digital pioneer
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
   reasons:
     loom: e-Residency and X-Road make Estonia a digital governance model for the Union.
     forge: Punches above its weight in cybersecurity and defence tech manufacturing.
@@ -138,19 +138,19 @@ LVA:
   name: Latvia
   standing: member
   note: Full Baltic participation
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
 
 LTU:
   name: Lithuania
   standing: member
   note: Full Baltic participation
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
 
 SVK:
   name: Slovakia
   standing: member
   note: Domestic political wavering on Loom and Green
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 0.5, green: 0.5, bench: 1, atlas: 0.5, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 0, green: 0, bench: 1, atlas: 0, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     loom: Domestic political resistance to digital regulation alignment.
     green: Coal and gas dependency; political wavering on climate commitments.
@@ -162,7 +162,7 @@ SVN:
   name: Slovenia
   standing: member
   note: Full participation
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     anchor: Small but strategic Adriatic coastline — Koper is a key central European port.
     spring: Alpine headwaters; Sava and Drava basins — upstream role gives outsized water influence.
@@ -171,7 +171,7 @@ HRV:
   name: Croatia
   standing: member
   note: Most recent Eurozone joiner
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0.5, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     fiscal: Joined the euro in 2023 — most recent Eurozone entrant.
     atlas: No ESA membership; limited space sector.
@@ -182,7 +182,7 @@ GRC:
   name: Greece
   standing: member
   note: Full participation post-debt-crisis
-  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 0.5, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     fiscal: Debt crisis 2010–2018 tested the euro to its limits; now a stabilised participant.
     anchor: Largest merchant fleet in the world by tonnage; Aegean border defence role.
@@ -193,7 +193,7 @@ CYP:
   name: Cyprus
   standing: member
   note: Geographic isolation; partial Shield, no Gate
-  hestias: { fiscal: 1, shield: 0.5, gate: 0, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 0, gate: 0, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     shield: Partial — division of the island complicates full mutual defence.
     gate: Not in Schengen; UN buffer zone and unresolved partition prevent external border standardisation.
@@ -205,7 +205,7 @@ MLT:
   name: Malta
   standing: member
   note: Neutrality tradition; outside Shield
-  hestias: { fiscal: 1, shield: 0, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 1, shield: 0, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     shield: Constitutional neutrality (1987 declaration) precludes mutual defence.
     spring: Island — no transboundary basins; severe water scarcity.
@@ -216,7 +216,7 @@ POL:
   name: Poland
   standing: member
   note: Złoty held; coal transition; judicial tensions
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 0.5, green: 0, bench: 0.5, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 0.5, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 0, bench: 0, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
   reasons:
     fiscal: Retains the złoty; no near-term convergence programme despite treaty obligation.
     green: Coal accounts for ~60% of electricity; just transition politically fraught.
@@ -227,7 +227,7 @@ CZE:
   name: Czechia
   standing: member
   note: Koruna held; otherwise integrated
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 0.5, bench: 1, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 0, bench: 1, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 1 }
   reasons:
     fiscal: Retains the koruna; no political will for euro adoption despite technical readiness.
     green: Coal transition ongoing; Turów mine disputes with Poland highlight the difficulty.
@@ -238,7 +238,7 @@ HUN:
   name: Hungary
   standing: member
   note: Currently in demotion proceedings
-  hestias: { fiscal: 0, shield: 0.5, gate: 1, loom: 0, green: 0, bench: 0, atlas: 0.5, forge: 0.5, library: 0.5, spring: 1, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 1, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 1, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     fiscal: Retains the forint; convergence programme stalled.
     shield: Partial — NATO member but obstructs joint EU defence initiatives.
@@ -253,7 +253,7 @@ ROU:
   name: Romania
   standing: member
   note: Full Schengen since January 2025; eurozone convergence ongoing
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 0.5, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     fiscal: Leu retained; convergence programme in progress.
     anchor: Black Sea coastline; Constanța is the Union's main Black Sea port.
@@ -263,7 +263,7 @@ BGR:
   name: Bulgaria
   standing: member
   note: Eurozone candidate; full Schengen since January 2025
-  hestias: { fiscal: 0.5, shield: 1, gate: 1, loom: 1, green: 0.5, bench: 1, atlas: 0, forge: 0.5, library: 0.5, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0.5, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 0, bench: 1, atlas: 0, forge: 0, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     fiscal: Partial — lev in currency board pegged to the euro; ERM II member, convergence pending.
     green: Coal-dependent energy sector; just transition ongoing.
@@ -273,7 +273,7 @@ SWE:
   name: Sweden
   standing: member
   note: Krona held by political tradition
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 1, pharmacy: 1, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 1, pharmacy: 1, beacon: 1, lattice: 1 }
   reasons:
     fiscal: Krona maintained by deliberate policy — 2003 referendum rejected the euro.
     krone: Natural Krone Hestia participant alongside Denmark, Norway, Iceland.
@@ -284,7 +284,7 @@ DNK:
   name: Denmark
   standing: member
   note: Krone held by treaty opt-out
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0.5, forge: 1, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 1, pharmacy: 1, beacon: 0.5, lattice: 1 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 1, pharmacy: 1, beacon: 1, lattice: 1 }
   reasons:
     fiscal: Permanent treaty opt-out from the euro (Edinburgh Agreement 1992); krone pegged to euro via ERM II.
     krone: Core Krone Hestia member — the Danish krone anchors the peg.
@@ -296,7 +296,7 @@ NOR:
   name: Norway
   standing: inner-assoc
   note: EEA member; potential Krone Hestia founder
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 0.5, atlas: 1, forge: 0.5, library: 1, spring: 0.5, anchor: 1, lyre: 1, krone: 1, pharmacy: 0.5, beacon: 1, lattice: 1 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 1, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 1, pharmacy: 0, beacon: 1, lattice: 1 }
   reasons:
     fiscal: Sovereign wealth fund makes euro adoption unnecessary; retains the Norwegian krone.
     krone: Natural Krone Hestia founder — the Norwegian krone anchors Nordic monetary cooperation.
@@ -308,7 +308,7 @@ ISL:
   name: Iceland
   standing: inner-assoc
   note: EEA member; small economy
-  hestias: { fiscal: 0, shield: 0.5, gate: 1, loom: 0.5, green: 1, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 1, lyre: 0.5, krone: 1, pharmacy: 0, beacon: 1, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 1, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     shield: Partial — NATO founding member but no standing army; hosts Keflavík base.
     green: Near-100% renewable energy (geothermal + hydro) — natural leader.
@@ -322,7 +322,7 @@ CHE:
   name: Switzerland
   standing: inner-assoc
   note: Direct democracy, neutrality, deep economic integration
-  hestias: { fiscal: 0, shield: 0, gate: 1, loom: 1, green: 1, bench: 0.5, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 1, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 0, gate: 1, loom: 1, green: 1, bench: 0, atlas: 1, forge: 1, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 1 }
   reasons:
     shield: Permanent neutrality enshrined since 1815; not a NATO member.
     gate: Full Schengen via bilateral agreement despite not being an EEA member.
@@ -337,7 +337,7 @@ LIE:
   name: Liechtenstein
   standing: inner-assoc
   note: EEA member; CHF currency union
-  hestias: { fiscal: 0.5, shield: 0, gate: 1, loom: 0.5, green: 1, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 1, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 1, loom: 0, green: 1, bench: 0, atlas: 0, forge: 0, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     fiscal: Partial — uses the Swiss franc via currency union with Switzerland; no own currency.
     shield: Abolished its army in 1868; relies on Switzerland for defence.
@@ -348,7 +348,7 @@ GBR:
   name: United Kingdom
   standing: inner-assoc
   note: If chosen as IUA path; alternatively Strategic Partner
-  hestias: { fiscal: 0, shield: 1, gate: 0.5, loom: 1, green: 1, bench: 0.5, atlas: 1, forge: 0.5, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 0, loom: 1, green: 1, bench: 0, atlas: 1, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 0 }
   reasons:
     shield: Nuclear power; Five Eyes member; significant European defence capability.
     gate: Partial — never joined Schengen; post-Brexit border regime limits free movement.
@@ -365,7 +365,7 @@ GRL:
     Left the EEC in 1985; strategic Arctic position, rare earths, and Danish
     citizenship give it natural Inner Union Associate standing — formalising an
     orientation that has always existed beneath the formal withdrawal.
-  hestias: { fiscal: 0, shield: 1, gate: 0.5, loom: 0.5, green: 1, bench: 0.5, atlas: 0.5, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 0.5, krone: 0.5, pharmacy: 0, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 0, loom: 0, green: 1, bench: 0, atlas: 0, forge: 1, library: 1, spring: 0, anchor: 1, lyre: 0, krone: 1, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     shield: Arctic strategic position; US Pituffik Space Base; Danish defence umbrella.
     forge: Critical rare earth mineral deposits — strategic autonomy interest for the Union.
@@ -384,7 +384,7 @@ UKR:
     War-shaped accelerated path; transitioning to Member. Crimea and parts of
     eastern Ukraine remain under Russian occupation — the Charter recognises
     Ukraine's internationally recognised borders.
-  hestias: { fiscal: 0, shield: 1, gate: 0.5, loom: 0.5, green: 0, bench: 0.5, atlas: 0.5, forge: 0.5, library: 0.5, spring: 1, anchor: 1, lyre: 0.5, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 0.5 }
+  hestias: { fiscal: 0, shield: 1, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 1, library: 1, spring: 1, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     shield: Full participant — frontline state; de facto security guarantees via bilateral agreements.
     green: Non-participant — war has devastated energy infrastructure; reconstruction prioritised over transition.
@@ -397,7 +397,7 @@ MDA:
   standing: outer-assoc
   aspirant: iua
   note: Eastern Partnership; on Member track
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0.5, green: 0, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 1, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     spring: Prut and Dniester rivers — transboundary water cooperation is the main integration vector.
     bench: Partial — Association Agreement includes judicial reform obligations.
@@ -408,7 +408,7 @@ MNE:
   standing: outer-assoc
   aspirant: iua
   note: Most advanced Western Balkans candidate
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0.5, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     anchor: Adriatic coastline; Kotor bay has strategic naval potential.
     bench: Partial — most advanced accession negotiations include judicial reform chapters.
@@ -418,7 +418,7 @@ ALB:
   standing: outer-assoc
   aspirant: iua
   note: Standard Western Balkans accession path
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0.5, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     anchor: Adriatic and Ionian coastline; growing port infrastructure.
 
@@ -427,14 +427,14 @@ MKD:
   standing: outer-assoc
   aspirant: iua
   note: Long-blocked accession finally moving
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
 
 SRB:
   name: Serbia
   standing: outer-assoc
   aspirant: iua
   note: Russia alignment complicates the path
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 1, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     spring: Danube and Sava basins — major transboundary water role makes full participation natural.
     shield: Non-participant — military neutrality and Russian arms dependency.
@@ -445,7 +445,7 @@ BIH:
   standing: outer-assoc
   aspirant: iua
   note: Constitutional reform precondition
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0.5, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     spring: Partial — Sava basin cooperation; Neretva watershed.
     lyre: Partial — Sarajevo cultural tradition and Ottoman-Austro-Hungarian heritage.
@@ -459,7 +459,7 @@ XKX:
     Five Members withhold recognition. Under the Charter, progression to Inner
     Union Associate via bilateral compact sidesteps the Member-vote question
     that blocks current accession.
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0.5, green: 0, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 0.5, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0.5, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 1, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     loom: Partial — young, digitally native population; growing tech sector.
     bench: Partial — EU Rule of Law Mission (EULEX) supports judicial reform.
@@ -470,7 +470,7 @@ GEO:
   name: Georgia
   standing: outer-assoc
   note: Currently constrained by political backsliding
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0.5, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     bench: Partial — Association Agreement includes judicial reform, but backsliding on implementation.
     anchor: Partial — Black Sea coastline; Batumi port; strategic position.
@@ -479,7 +479,7 @@ ARM:
   name: Armenia
   standing: outer-assoc
   note: Pivoting from Russia; early-stage Eastern Partnership
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     anchor: Landlocked — no maritime coastline.
     lyre: Partial — ancient Christian heritage; Armenian diaspora cultural networks.
@@ -488,7 +488,7 @@ TUR:
   name: Türkiye
   standing: outer-assoc
   note: Customs union maintained; long-standing impasse settled
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 1, lyre: 0.5, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     anchor: Full participant — controls the Bosphorus and Dardanelles; major naval power; NATO’s largest Mediterranean fleet.
     pharmacy: Partial — growing pharmaceutical manufacturing sector.
@@ -498,7 +498,7 @@ MAR:
   name: Morocco
   standing: outer-assoc
   note: Mediterranean partnership formalised
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 1, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0.5, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     anchor: Full participant — Strait of Gibraltar; major Mediterranean and Atlantic fishing fleet.
     beacon: Partial — growing research cooperation; renewable energy partnerships.
@@ -507,7 +507,7 @@ TUN:
   name: Tunisia
   standing: outer-assoc
   note: Mediterranean partnership formalised
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 1, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0.5, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
     anchor: Full participant — central Mediterranean position; migration route management.
 

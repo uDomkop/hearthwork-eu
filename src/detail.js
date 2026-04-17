@@ -23,7 +23,6 @@ export function renderDetail(alpha3, countryData, hestias, standings) {
     const p = data.hestias[h.key];
     let mark, markClass;
     if (p === 1) { mark = '●'; markClass = 'mark-full'; }
-    else if (p === 0.5) { mark = '◐'; markClass = 'mark-partial'; }
     else { mark = '○'; markClass = 'mark-none'; }
     const reason = reasons[h.key];
     const reasonHtml = reason ? `<span class="hestia-reason">${reason}</span>` : '';
