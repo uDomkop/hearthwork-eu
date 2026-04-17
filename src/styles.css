@@ -421,6 +421,27 @@ h1 {
   font-weight: 600;
 }
 
+.detail-aspirant {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 2px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-family: 'Iowan Old Style', Georgia, serif;
+  font-weight: 600;
+  color: var(--ink);
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 2px,
+    rgba(40, 84, 171, 0.2) 2px,
+    rgba(40, 84, 171, 0.2) 4px
+  );
+  border: 1px solid rgba(40, 84, 171, 0.3);
+  margin-bottom: 10px;
+}
+
 .standing-member { background: var(--member); }
 .standing-inner { background: var(--inner-assoc); color: var(--ink); }
 .standing-outer { background: var(--outer-assoc); color: var(--ink); }

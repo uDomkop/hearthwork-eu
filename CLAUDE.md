@@ -21,18 +21,23 @@ No CDN dependency at runtime — TopoJSON world-atlas data is vendored in `publi
 
 ```
 index.html          # HTML shell (header, button bar, SVG container, legend, detail panel, footer)
+charter.html        # Charter document page
+manifesto.html      # Manifesto document page
+commentary.html     # Commentary document page
 src/
   main.js           # Entry point: imports data, wires state, calls init
-  styles.css        # All CSS (theme via --ember/--hearth/--ash vars, responsive at 600/900px)
+  styles.css        # All CSS (EU blue theme via --ember/--hearth vars, responsive at 600/900px)
   map.js            # drawMap(), lookupAlpha3() — D3 projection + SVG path rendering
   view.js           # applyView(), renderLegend(), setupHestiaButtons()
   detail.js         # selectCountry(), renderDetail(), renderNonFrameworkDetail()
+  document.js       # Shared entry for charter/manifesto/commentary pages (marked.parse)
   fallback.js       # buildListFallback() — text fallback when map fails to load
 data/
-  countries.yaml    # 36 country records keyed by ISO alpha-3
-  hestias.yaml      # All 16 Hestias with key, label, sub, description
-  standings.yaml    # Standing definitions (member, inner-assoc, outer-assoc, strategic, non-eu)
+  countries.yaml    # 37 country records keyed by ISO alpha-3
+  hestias.yaml      # All 16 Hestias with key, label, sub, description, explanation
+  standings.yaml    # Standing definitions (member, inner-assoc, outer-assoc, strategic)
   iso-mappings.yaml # Numeric ISO → alpha-3 + name fallbacks (e.g. Kosovo)
+  non-framework.yaml # Notes for countries outside the Charter (incl. suspended: Russia, Belarus)
 public/
   countries-110m.json  # Vendored world-atlas TopoJSON
 ```
@@ -45,6 +50,8 @@ YAML data files are imported at build time via `@rollup/plugin-yaml` (configured
 - `standing`: `"member"` | `"inner-assoc"` | `"outer-assoc"` | `"strategic"`
 - `note`: policy context string
 - `hestias`: object with 16 participation values: `1` (full), `0.5` (partial), `0` (none)
+- `reasons` (optional): object mapping Hestia key → explanation string (only notable entries)
+- `aspirant` (optional): `"member"` (IUA aspiring to Member) or `"iua"` (OUA aspiring to IUA) — shown as striped pattern on map
 
 The 16 Hestias are: fiscal, krone, shield, gate, atlas, anchor, bench, green, forge, loom, library, spring, pharmacy, beacon, lattice, lyre. All defined in `data/hestias.yaml`.
 

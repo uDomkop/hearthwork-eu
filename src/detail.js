@@ -13,6 +13,12 @@ export function renderDetail(alpha3, countryData, hestias, standings) {
 
   const standing = standings[data.standing];
   const reasons = data.reasons || {};
+  const aspirantLabel = data.aspirant === 'member' ? 'Aspiring Member'
+    : data.aspirant === 'iua' ? 'Aspiring Inner Associate'
+    : null;
+  const aspirantHtml = aspirantLabel
+    ? `<div class="detail-aspirant">${aspirantLabel}</div>`
+    : '';
   const hestiaItems = hestias.map(h => {
     const p = data.hestias[h.key];
     let mark, markClass;
@@ -33,6 +39,7 @@ export function renderDetail(alpha3, countryData, hestias, standings) {
   panel.innerHTML = `
     <div class="detail-name">${data.name}</div>
     <div class="detail-standing ${standing.className}">${standing.label}</div>
+    ${aspirantHtml}
     <div class="detail-note">${data.note}</div>
     <div class="hestia-list">${hestiaItems}</div>
   `;

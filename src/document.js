@@ -2,10 +2,12 @@ import './styles.css';
 import { marked } from 'marked';
 import charterMd from '../charter.md?raw';
 import manifestoMd from '../manifesto.md?raw';
+import commentaryMd from '../commentary.md?raw';
 
 const sources = {
   charter: charterMd,
   manifesto: manifestoMd,
+  commentary: commentaryMd,
 };
 
 const scriptEl = document.querySelector('script[data-source]');
