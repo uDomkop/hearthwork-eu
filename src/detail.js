@@ -48,13 +48,17 @@ export function renderNonFrameworkDetail(name, nonFramework) {
   }
 
   const extra = nonFramework[name];
-  const note = extra
-    ? `Outside the Charter framework. ${extra}`
+  const noteText = typeof extra === 'object' ? extra.note : extra;
+  const isSuspended = typeof extra === 'object' && extra.suspended;
+  const note = noteText
+    ? `Outside the Charter framework. ${noteText}`
     : 'Outside the Charter framework. No current standing as Member, Associate, or Strategic Partner.';
+  const standingLabel = isSuspended ? 'Suspended' : 'Outside framework';
+  const standingClass = isSuspended ? 'standing-suspended' : 'standing-non-eu';
 
   panel.innerHTML = `
     <div class="detail-name">${name}</div>
-    <div class="detail-standing standing-non-eu">Outside framework</div>
+    <div class="detail-standing ${standingClass}">${standingLabel}</div>
     <div class="detail-note">${note}</div>
   `;
 

@@ -10,7 +10,11 @@ export function applyView(svgEl, currentView, selectedCountry, countryData, stan
     el.classList.remove('selected');
 
     if (!data) {
-      el.style.fill = 'var(--eu-non)';
+      if (el.getAttribute('data-suspended') === 'true') {
+        el.style.fill = 'var(--suspended)';
+      } else {
+        el.style.fill = 'var(--eu-non)';
+      }
       el.style.opacity = '';
       return;
     }
@@ -56,6 +60,7 @@ export function renderLegend(currentView, hestias, standings) {
       <div class="legend-item"><div class="legend-swatch legend-swatch-aspirant"></div><div class="legend-text">Outer Associate (aspirant)</div></div>
       <div class="legend-item"><div class="legend-swatch" style="background: var(--strategic);"></div><div class="legend-text">Strategic Partner</div></div>
       <div class="legend-item"><div class="legend-swatch" style="background: var(--eu-non);"></div><div class="legend-text">Outside framework</div></div>
+      <div class="legend-item"><div class="legend-swatch" style="background: var(--suspended);"></div><div class="legend-text">Suspended</div></div>
     `;
   } else {
     const hestia = hestias.find(h => h.key === currentView);

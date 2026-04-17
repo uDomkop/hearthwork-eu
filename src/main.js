@@ -44,7 +44,7 @@ async function init() {
     const response = await fetch('./countries-110m.json');
     const world = await response.json();
 
-    const { svg } = drawMap(world, countryData, isoMappings, handleCountrySelect, handleNonFrameworkSelect);
+    const { svg } = drawMap(world, countryData, isoMappings, nonFramework, handleCountrySelect, handleNonFrameworkSelect);
     state.svgEl = svg;
 
     setupHestiaButtons(hestias, handleViewChange);

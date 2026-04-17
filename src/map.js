@@ -15,7 +15,7 @@ export function lookupAlpha3(feat, isoMappings) {
   return null;
 }
 
-export function drawMap(world, countryData, isoMappings, onSelect, onNonFrameworkSelect) {
+export function drawMap(world, countryData, isoMappings, nonFramework, onSelect, onNonFrameworkSelect) {
   const svg = document.getElementById('map-svg');
   const width = 800;
   const height = 700;
@@ -78,6 +78,10 @@ export function drawMap(world, countryData, isoMappings, onSelect, onNonFramewor
     }
     const featureName = (feat.properties && feat.properties.name) || '';
     path.setAttribute('data-name', featureName);
+    const nfEntry = nonFramework[featureName];
+    if (!data && nfEntry && typeof nfEntry === 'object' && nfEntry.suspended) {
+      path.setAttribute('data-suspended', 'true');
+    }
 
     path.addEventListener('click', () => {
       if (data) {

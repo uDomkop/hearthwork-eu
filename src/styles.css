@@ -14,6 +14,7 @@
   --strategic: #b08d57;
   --non: #d8d4cc;
   --eu-non: #b8b4ac;
+  --suspended: #a85454;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -415,6 +416,7 @@ h1 {
 .standing-outer { background: var(--outer-assoc); color: var(--ink); }
 .standing-strategic { background: var(--strategic); }
 .standing-non-eu { background: var(--ash); }
+.standing-suspended { background: var(--suspended); }
 
 .detail-note {
   font-style: italic;
