@@ -214,11 +214,19 @@ The cost is named honestly: a Member that refuses pays in democratic voice — l
 
 **VII.2 — Regulatory Gravity.** Regulatory gravity exists when a Hestia rule, by virtue of market scale, technical standardisation, or supply-chain integration, creates de facto compliance pressure on non-participating states or their economic actors. The Legislative Classification Body shall apply published quantitative and qualitative indicators — including market-share thresholds, cross-border dependency ratios, and compliance-cost assessments — when determining whether regulatory gravity is present. The methodology and indicators shall be reviewed by the Constitutional Convention at each regular session.
 
-**VII.3 — The Adjustment Fund.** Where legislation is classified as External Reach, the legislating Hestia shall establish an Adjustment Fund, financed from the Hestia's own Fiscal Key revenues, to compensate non-participating states for documented compliance costs, market-access barriers, or transition burdens arising from regulatory gravity. Claims are assessed by the Independent Review Commission. Disbursements require a majority decision of the Standing Review Body. The Fund does not confer voting rights on recipient states.
+**VII.3 — Remedies for Regulatory Gravity.** Where legislation is classified as External Reach, affected non-participating states are entitled to the following remedies. Claims under each remedy are assessed by the Independent Review Commission. None of the remedies confers voting rights in the legislating Hestia.
+
+1. **Equivalence.** A non-participating state may petition for a declaration that its domestic rules are equivalent to the Hestia's rule for the purposes of market access and conformity assessment. Where equivalence is found, compliance is established through the non-participant's own regulator, and the Hestia shall not require duplicate certification. Equivalence declarations are reviewable at fixed intervals and may be withdrawn for cause. This is the remedy of first resort.
+
+2. **Discounted Accession.** A non-participating state demonstrating substantial regulatory-gravity exposure may, during a one-year window following the rule's entry into force, join the Hestia at a Fiscal Key reduced in proportion to the documented de facto compliance already borne. The discount tapers to the standard rate over five years. This remedy converts asymmetric compliance into participation rather than payment, and is open to Members, Inner Union Associates, and Outer Union Associates alike.
+
+3. **Narrow Hardship Facility.** A state that is constitutionally barred from joining the Hestia — including by neutrality provision, Assembly-Locked Domain under I.10, or equivalent durable legal impediment — may apply to a Hardship Facility, funded from the Assembly budget rather than the legislating Hestia's revenues, for time-limited transition assistance. Strategic Partners may apply on the same basis. Members and Associates who are legally eligible to join the Hestia are not eligible for the Facility; their remedy is equivalence or accession. The Facility sunsets ten years after the rule's entry into force.
+
+No other compensation flows from participating to non-participating states by virtue of regulatory gravity. The Union does not pay states to remain outside the rules it writes.
 
 **VII.4 — The Standing Review Body.** Handles consultation and suspensive veto procedures on External Reach legislation. Affected states across all standings hold consultation rights.
 
-**VII.5 — The Suspensive Veto.** External Reach legislation may be paused for review (six months, or thirty days for trade-affecting matters). The Standing Review Body may propose amendments, exemptions, transition periods, or Adjustment Fund allocations under VII.3. After review, the legislating body may proceed with or without modification.
+**VII.5 — The Suspensive Veto.** External Reach legislation may be paused for review (six months, or thirty days for trade-affecting matters). The Standing Review Body may propose amendments, exemptions, transition periods, or recommend remedies under VII.3. After review, the legislating body may proceed with or without modification.
 
 **VII.6 — Escalation.** Unresolved disputes escalate to a Joint Review Panel, then to a CJEU advisory opinion.
 

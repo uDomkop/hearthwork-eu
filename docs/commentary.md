@@ -89,7 +89,17 @@ The cost of equal voting is admitted: it overstates the contribution of small pa
 
 The **Double Majority Safeguard** (IV.5) preserves what weighted voting was reaching for: every decision needs both a majority of participating *states* and a majority of participating *citizens*. A small bloc of large states cannot steamroll the rest; a large bloc of small states cannot bind a large population without its consent. Both counts are still binary — every state once, every citizen once — just two ways of counting the same yes-or-no participation.
 
-Spillover concerns are handled through the External Reach machinery (Title VII), which gives non-participants consultation rights, a suspensive veto, and access to an Adjustment Fund. They are heard, not merely outvoted.
+Spillover concerns are handled through the External Reach machinery (Title VII), which gives non-participants consultation rights, a suspensive veto, and structured remedies — equivalence of their own rules, discounted accession into the Hestia, or, for the constitutionally-barred, a narrow hardship facility. They are heard, not merely outvoted — and those genuinely pressed by regulatory gravity are offered a way *in*, not a cheque to stay out.
+
+### A worked example
+
+Suppose the **Loom Hestia** — digital governance — adopts a stringent AI liability rule. Its standards begin to function as a global floor: firms selling into the Union conform to them whether or not their home state joined Loom. Three non-participants, three different doors.
+
+- **Switzerland**, a Strategic Partner, petitions for **equivalence** (VII.3 ¶1). Its national digital regulator is certified as meeting the Hestia's standard; Swiss firms comply through Berne rather than Tallinn. Nothing changes hands. Both sides save on duplicate certification. Not coincidentally, this is already how much of the Swiss-EU relationship works today.
+- **A Member State that opted out of Loom** finds its companies already compliant in practice. Within the one-year window, it takes **discounted accession** (VII.3 ¶2) — joining Loom at a reduced Fiscal Key that reflects the compliance already borne, tapering to the standard rate over five years. From that day forward it votes on the next Loom rule. Regulatory gravity has become membership.
+- The **Hardship Facility** (VII.3 ¶3) does not apply in this case: digital governance carries no constitutional bar. But imagine instead the **Shield Hestia** adopts a common defence procurement standard. **Ireland**, constitutionally neutral, cannot join Shield without amending its own constitution. It applies to the Facility — funded from the Assembly budget, not from Shield's revenues — for up to ten years of transition assistance. After that, the Facility closes; Ireland's neutrality, and the compliance cost it carries, are Ireland's own.
+
+Three doors, three standings, one principle. Equivalence is the door for peers who want to stay peers. Accession is the door for the regulated-in-fact who accept being regulated-in-law. Hardship is the door for those the law will not let through the other two. What the Charter refuses to build is a fourth door — the one marked *stay out and send us the bill*.
 
 ---
 

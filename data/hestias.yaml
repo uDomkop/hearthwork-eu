@@ -77,8 +77,8 @@
 - key: anchor
   label: Anchor
   sub: maritime
-  capital: Lisbon
-  capitalCoords: [-9.14, 38.74]
+  capital: Stella Maris (vessel)
+  capitalCoords: [14.0, 35.5]
   description: Maritime cooperation and coast guards
   explanation: >-
     The Anchor covers maritime cooperation: shared coast guard operations,
@@ -86,7 +86,11 @@
     and protection of exclusive economic zones. Particularly relevant for
     Mediterranean, Atlantic, Baltic, and Arctic-facing states. Full
     participation implies commitment to joint patrols and shared maritime
-    domain awareness.
+    domain awareness. Uniquely among the Hestias, the Anchor's Capital is a
+    designated flagship — the Stella Maris — rather than a fixed city. The
+    vessel circulates between participating states' ports and serves as the
+    Council's mobile seat, expressing the principle that a maritime Hestia
+    belongs to no single coast.
 
 - key: bench
   label: Bench
@@ -215,8 +219,7 @@
 - key: lyre
   label: Lyre
   sub: heritage
-  capital: Florence
-  capitalCoords: [11.25, 43.77]
+  capital: Rotating annually
   description: Cultural heritage and the arts
   explanation: >-
     The Lyre is the cultural heritage Hestia. Participants coordinate
@@ -225,3 +228,7 @@
     minority languages, and funding for the arts. It is the softest of the
     Hestias, with few binding obligations, but it carries symbolic weight as
     the expression of what the Union is for beyond economics and security.
+    The Lyre's Capital rotates annually, hosted in turn by the year's
+    European Capital of Culture — a deliberate refusal to anchor culture in
+    a single place, and a recognition that the heritage Hestia belongs
+    wherever Europeans gather to make and remember.
