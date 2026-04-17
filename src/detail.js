@@ -26,10 +26,12 @@ export function renderDetail(alpha3, countryData, hestias, standings) {
     else { mark = '○'; markClass = 'mark-none'; }
     const reason = reasons[h.key];
     const reasonHtml = reason ? `<span class="hestia-reason">${reason}</span>` : '';
+    const capitalHtml = h.capital ? `<span class="hestia-capital-tag">${h.capital}</span>` : '';
     return `
       <div class="hestia-item">
         <span class="hestia-mark ${markClass}">${mark}</span>
         <span class="hestia-name">${h.label}</span>
+        ${capitalHtml}
         ${reasonHtml}
       </div>
     `;

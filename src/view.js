@@ -1,4 +1,6 @@
-export function applyView(svgEl, currentView, selectedCountry, countryData, standings) {
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+export function applyView(svgEl, currentView, selectedCountry, countryData, standings, hestias, projection) {
   if (!svgEl) return;
 
   const paths = svgEl.querySelectorAll('.country');
@@ -44,6 +46,53 @@ export function applyView(svgEl, currentView, selectedCountry, countryData, stan
       el.classList.add('selected');
     }
   });
+
+  // Capital marker
+  updateCapitalMarker(svgEl, currentView, hestias, projection);
+}
+
+function updateCapitalMarker(svgEl, currentView, hestias, projection) {
+  // Remove existing marker
+  const existing = svgEl.querySelector('.capital-marker-group');
+  if (existing) existing.remove();
+
+  if (!projection || currentView === 'standings') return;
+
+  const hestia = hestias.find(h => h.key === currentView);
+  if (!hestia || !hestia.capitalCoords) return;
+
+  const [lon, lat] = hestia.capitalCoords;
+  const [x, y] = projection([lon, lat]);
+  if (x == null || y == null) return;
+
+  const g = document.createElementNS(SVG_NS, 'g');
+  g.setAttribute('class', 'capital-marker-group');
+
+  // Outer glow
+  const glow = document.createElementNS(SVG_NS, 'circle');
+  glow.setAttribute('cx', x);
+  glow.setAttribute('cy', y);
+  glow.setAttribute('r', '12');
+  glow.setAttribute('class', 'capital-glow');
+  g.appendChild(glow);
+
+  // Inner dot
+  const dot = document.createElementNS(SVG_NS, 'circle');
+  dot.setAttribute('cx', x);
+  dot.setAttribute('cy', y);
+  dot.setAttribute('r', '5');
+  dot.setAttribute('class', 'capital-dot');
+  g.appendChild(dot);
+
+  // Label
+  const text = document.createElementNS(SVG_NS, 'text');
+  text.setAttribute('x', x);
+  text.setAttribute('y', y - 16);
+  text.setAttribute('class', 'capital-label');
+  text.textContent = hestia.capital;
+  g.appendChild(text);
+
+  svgEl.appendChild(g);
 }
 
 export function renderLegend(currentView, hestias, standings) {
@@ -77,9 +126,11 @@ export function renderLegend(currentView, hestias, standings) {
       <div class="legend-item"><div class="legend-swatch" style="background: var(--non); opacity: 0.5;"></div><div class="legend-text">Non-participant</div></div>
     `;
     
-    if (desc || explanation) {
+    const capital = hestia ? hestia.capital : '';
+    if (desc || explanation || capital) {
       descriptionContentEl.innerHTML = `
         ${desc ? `<div class="hestia-description-title">${desc}</div>` : ''}
+        ${capital ? `<div class="hestia-capital">Capital: ${capital}</div>` : ''}
         ${explanation ? `<div class="hestia-description-text">${explanation}</div>` : ''}
       `;
       descriptionEl.style.display = 'block';
@@ -104,7 +155,7 @@ export function setupHestiaButtons(hestias, onChange) {
     const btn = document.createElement('button');
     btn.className = 'hestia-btn';
     btn.dataset.view = h.key;
-    btn.innerHTML = `<span class="btn-name">${h.label}</span><span class="btn-sub">${h.sub}</span>`;
+    btn.innerHTML = `<span class="btn-name">${h.label}</span><span class="btn-sub">${h.sub}</span>${h.capital ? `<span class="btn-capital">${h.capital}</span>` : ''}`;
     container.appendChild(btn);
   });
 

@@ -8,6 +8,8 @@
 - key: fiscal
   label: Fiscal Hearth
   sub: Eurozone
+  capital: Frankfurt
+  capitalCoords: [8.68, 50.11]
   description: Eurozone — common currency and fiscal coordination
   explanation: >-
     The Fiscal Hearth is the euro area and its surrounding fiscal architecture.
@@ -20,6 +22,8 @@
 - key: krone
   label: Krone
   sub: Nordic currency
+  capital: Copenhagen
+  capitalCoords: [12.57, 55.68]
   description: Nordic monetary cooperation (cross-standing)
   explanation: >-
     The Krone Hestia formalises the existing monetary coordination between the
@@ -33,6 +37,8 @@
 - key: shield
   label: Shield
   sub: defence
+  capital: Brussels
+  capitalCoords: [4.35, 50.85]
   description: Defence — shared procurement and mutual defence
   explanation: >-
     The Shield is the Union's defence Hestia. Participants commit to mutual
@@ -45,6 +51,8 @@
 - key: gate
   label: Gate
   sub: Schengen
+  capital: Luxembourg
+  capitalCoords: [6.13, 49.61]
   description: Schengen — border management and free movement
   explanation: >-
     The Gate absorbs and extends the Schengen acquis: passport-free travel,
@@ -55,6 +63,8 @@
 - key: atlas
   label: Atlas
   sub: ESA / space
+  capital: Paris
+  capitalCoords: [2.35, 48.86]
   description: Space cooperation — descended from ESA tradition
   explanation: >-
     Atlas formalises Europe's space cooperation, descended from the ESA
@@ -67,6 +77,8 @@
 - key: anchor
   label: Anchor
   sub: maritime
+  capital: Lisbon
+  capitalCoords: [-9.14, 38.74]
   description: Maritime cooperation and coast guards
   explanation: >-
     The Anchor covers maritime cooperation: shared coast guard operations,
@@ -79,6 +91,8 @@
 - key: bench
   label: Bench
   sub: judicial
+  capital: The Hague
+  capitalCoords: [4.30, 52.08]
   description: Judicial cooperation and mutual recognition
   explanation: >-
     The Bench is the judicial cooperation Hestia. Participants accept mutual
@@ -91,6 +105,8 @@
 - key: green
   label: Green
   sub: climate & energy
+  capital: Stockholm
+  capitalCoords: [18.07, 59.33]
   description: Climate policy and energy transition
   explanation: >-
     The Green Hestia encompasses climate policy and the energy transition:
@@ -102,6 +118,8 @@
 - key: forge
   label: Forge
   sub: industry
+  capital: Munich
+  capitalCoords: [11.58, 48.14]
   description: Industrial policy and strategic manufacturing
   explanation: >-
     The Forge is the Union's industrial policy Hestia. Participants coordinate
@@ -115,6 +133,8 @@
 - key: loom
   label: Loom
   sub: digital
+  capital: Tallinn
+  capitalCoords: [24.75, 59.44]
   description: Digital and telecommunications coordination
   explanation: >-
     The Loom covers digital governance: data protection (GDPR successor),
@@ -126,6 +146,8 @@
 - key: library
   label: Library
   sub: education
+  capital: Bologna
+  capitalCoords: [11.34, 44.49]
   description: Cultural and educational cooperation
   explanation: >-
     The Library is the education and cultural cooperation Hestia. It encompasses
@@ -139,6 +161,8 @@
 - key: spring
   label: Spring
   sub: water
+  capital: Vienna
+  capitalCoords: [16.37, 48.21]
   description: Water and environmental stewardship
   explanation: >-
     The Spring covers transboundary water management and environmental
@@ -151,6 +175,8 @@
 - key: pharmacy
   label: Pharmacy
   sub: health
+  capital: Amsterdam
+  capitalCoords: [4.90, 52.37]
   description: Healthcare cooperation and pharmaceutical coordination
   explanation: >-
     The Pharmacy encompasses healthcare cooperation: joint pharmaceutical
@@ -162,6 +188,8 @@
 - key: beacon
   label: Beacon
   sub: research
+  capital: Geneva
+  capitalCoords: [6.14, 46.20]
   description: Research and innovation programmes
   explanation: >-
     The Beacon is the research and innovation Hestia, successor to Horizon
@@ -173,6 +201,8 @@
 - key: lattice
   label: Lattice
   sub: energy grid
+  capital: Aachen
+  capitalCoords: [6.08, 50.78]
   description: Energy infrastructure and grid interconnection
   explanation: >-
     The Lattice governs energy infrastructure: cross-border electricity and gas
@@ -185,6 +215,8 @@
 - key: lyre
   label: Lyre
   sub: heritage
+  capital: Florence
+  capitalCoords: [11.25, 43.77]
   description: Cultural heritage and the arts
   explanation: >-
     The Lyre is the cultural heritage Hestia. Participants coordinate

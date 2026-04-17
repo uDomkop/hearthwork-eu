@@ -58,6 +58,8 @@ hereby establish this Charter as the foundation of a European Union composed of 
 | **Participation** | Legal, fiscal, and regulatory involvement |
 | **Fiscal Key** | Financial subscription required for Hestia voting rights |
 | **Modular Parliament** | The European Parliament configured per legislative file |
+| **Hestia Council** | The executive body of a Hestia, composed of participating states' ministers |
+| **Hestia Capital** | The permanent seat of a Hestia Council, designated by its founding members |
 
 ---
 
@@ -67,7 +69,7 @@ hereby establish this Charter as the foundation of a European Union composed of 
 
 **Article 11 — Direct Rights.** Free movement throughout the Inner Union, European Parliament voting (Members), petition rights, Ombudsman access, equal treatment under Union law.
 
-**Article 12 — Inner Union Associate Citizens.** Direct Charter rights including free movement and petition. No vote on Assembly Baseline legislation. Full Hestia voting weight (1.0) when their state participates via Fiscal Key. Mandatory periodic consent mechanism every ten years or sooner.
+**Article 12 — Inner Union Associate Citizens.** Direct Charter rights including free movement and petition. No vote on Assembly Baseline legislation. Full Hestia voting rights when their state participates via Fiscal Key.
 
 **Article 13 — Outer Union & Strategic Citizens.** Rights defined through bilateral compacts, with reciprocity governing Strategic Partner relationships.
 
@@ -81,29 +83,24 @@ hereby establish this Charter as the foundation of a European Union composed of 
 
 The European Parliament operates as a variable-geometry legislative chamber. Voting composition is determined per legislative file: a state bound by a rule has voice on that rule; a state not bound has none. The same Parliament, sitting in continuous session, reconfigures itself for each file.
 
-## Article 16 — Principle of Weighted Voice
+## Article 16 — Principle of Equal Voice
 
-Voting weight reflects three factors:
+Voting is binary. A state is either bound by a rule and votes on it, or is not bound and does not. There are no fractional, weighted, or scaled votes. Every vote cast on a given file counts equally.
 
-1. **Legal obligation** — is the state bound by the rule?
-2. **Fiscal contribution** — does the state pay into the relevant framework?
-3. **Regulatory exposure** — does the rule materially affect the state through spillover?
+Voice follows obligation: the question is not *how much* a state votes but *whether* it votes at all, and that question is answered by whether the state is a participant in the rule's domain.
 
-The Constitutional Convention may recalibrate the formula every ten years.
+## Article 17 — The Franchise
 
-## Article 17 — Weighted Franchise
+| Context | Who votes | Who does not |
+|---|---|---|
+| Assembly Baseline | Members | IUAs, OUAs, Strategic Partners |
+| Hestia | Participating states (Member, IUA, or OUA) — one vote each | Non-participants of any standing |
 
-| Context | Member | IUA | OUA (participating) | Strategic |
-|---|---|---|---|---|
-| Assembly Baseline | 1.0 | 0.0 | 0.0 | 0.0 |
-| Hestia (participating) | 1.0 | 1.0 | 0.2 | 0.0 |
-| Hestia (non-participating, with spillover) | 0.3 | 0.0 | — | 0.0 |
+External Reach legislation: affected states across all standings hold consultation rights and the suspensive veto under Article 30, but do not vote on the file itself.
 
-External Reach legislation: affected states across all standings hold consultation rights and the suspensive veto under Article 26.
+**Article 18 — Certification.** The Speaker certifies the voting roster per file before debate opens — publishing which states vote and which do not. Certification is challengeable through expedited CJEU review.
 
-**Article 18 — Certification.** The Speaker certifies voting configuration per file before debate opens. Certification is challengeable through expedited CJEU review.
-
-**Article 19 — Dual Majority Safeguard.** Hestia decisions require both a majority of weighted votes *and* a majority of participating states by count.
+**Article 19 — Double Majority Safeguard.** Hestia and Assembly Baseline decisions require both a majority of participating states by count *and* a majority of participating citizens by population. Neither majority alone suffices.
 
 ---
 
@@ -134,6 +131,20 @@ Hestias are open across the Inner and Outer Union:
 
 No state may be excluded from joining a Hestia for political reasons. Criteria must be objective, published, and CJEU-reviewable.
 
+## Article 22A — Hestia Councils and Capitals
+
+Each Hestia is governed by a Hestia Council — a domain-specific executive body seated in a permanent Hestia Capital.
+
+**Composition.** Each participating state appoints its relevant minister to the Council as of right. Beyond this ministerial core, each Hestia compact may provide for technical delegates, expert advisers, or citizen representatives. Composition beyond the ministerial core is determined by the founding members and may be amended by Council supermajority.
+
+**Role.** The Hestia Council executes legislation passed by the Modular Parliament within its domain. It manages the Hestia budget, oversees compliance with Hestia obligations, and issues implementing regulations within the bounds of Parliament-passed legislation. It does not initiate or pass legislation.
+
+**The Hestia Capital.** The founding members designate a permanent seat — the Hestia Capital — at the time of establishment. The Capital hosts the Council's primary sessions and administrative functions. It may not be relocated except by unanimous consent of all current participants.
+
+**Accountability.** The Hestia Council reports to the Modular Parliament configuration for its domain. Parliament may censure the Council by majority vote of participants. Individual ministers remain accountable to their own national parliaments under their national constitutional arrangements.
+
+---
+
 ## Article 23 — The Fiscal Key
 
 Voting rights in any Hestia require Fiscal Key payment.
@@ -143,7 +154,7 @@ Voting rights in any Hestia require Fiscal Key payment.
 3. **Light-Out Clause** — non-payment suspends voting rights after a sixty-day cure period. Sustained non-payment triggers withdrawal.
 4. **Ring-Fencing** — each Hestia budget is isolated. Suspension in one does not affect others.
 
-**Article 24 — Anti-Dominance Rule.** No single state or coalition of fewer than one-third of participants may dominate Hestia decisions through weighted votes alone.
+**Article 24 — Anti-Dominance Rule.** The double majority of Article 19 is the structural safeguard against dominance: no coalition can carry a Hestia decision without both a majority of states and a majority of the participating population. Hestia compacts may set higher thresholds for specified categories of decision, but may not lower them.
 
 ## Article 25 — Joining, Stepping Back, and Removal
 
@@ -235,7 +246,8 @@ In extreme crises threatening the security, constitutional order, or fundamental
 
 - **The European Parliament** — directly elected, operating as the Modular Parliament.
 - **The Assembly of Member States** — intergovernmental co-legislator on Assembly Baseline matters.
-- **The European Commission** — executive body. President elected by Parliament from candidates proposed by European political parties.
+- **The European Commission** — executive body for Assembly Baseline matters. President elected by Parliament from candidates proposed by European political parties.
+- **Hestia Councils** — domain-specific executive bodies, one per Hestia, each seated in its Hestia Capital and composed of participating states' ministers. Governed by Article 22A.
 - **The CJEU** — judicial authority for Charter interpretation, legislative review, and dispute resolution.
 
 ## Article 40 — Independent Bodies and the Triple Key

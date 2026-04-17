@@ -15,10 +15,11 @@ const state = {
   currentView: 'standings',
   selectedCountry: null,
   svgEl: null,
+  projection: null,
 };
 
 function refresh() {
-  applyView(state.svgEl, state.currentView, state.selectedCountry, countryData, standings);
+  applyView(state.svgEl, state.currentView, state.selectedCountry, countryData, standings, hestias, state.projection);
   renderLegend(state.currentView, hestias, standings);
 }
 
@@ -44,8 +45,9 @@ async function init() {
     const response = await fetch('./countries-110m.json');
     const world = await response.json();
 
-    const { svg } = drawMap(world, countryData, isoMappings, nonFramework, handleCountrySelect, handleNonFrameworkSelect);
+    const { svg, projection } = drawMap(world, countryData, isoMappings, nonFramework, handleCountrySelect, handleNonFrameworkSelect);
     state.svgEl = svg;
+    state.projection = projection;
 
     setupHestiaButtons(hestias, handleViewChange);
     refresh();

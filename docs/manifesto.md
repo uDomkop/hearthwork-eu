@@ -31,10 +31,11 @@ All Members share the single market, free movement, fundamental rights, and rule
 
 Deeper cooperation happens in voluntary domains — currency, defence, climate, digital policy, judicial cooperation. States join by choice, pay to join, govern what they join, and can leave. No country is "more European" for joining more.
 
+Each Hestia is governed by a Council of the participating states' ministers, seated in a permanent city — its Hestia Capital. The Fiscal Hestia meets in one city; the Green Hestia in another; the Defence Hestia in another. Integration has an address. Ministers are accountable. Citizens know where to look.
+
 ### Inner Union Associates
 
-Deeply integrated neighbours with free movement and direct constitutional rights. They do not vote on baseline legislation, but vote with full weight in any Hestia they join. Every ten years, their citizens choose whether to maintain or change the relationship.
-
+Deeply integrated neighbours with free movement and direct constitutional rights. They do not vote on baseline legislation, but vote as full equals in any Hestia they join.
 ### Outer Union Associates
 
 Neighbours aligning at their own pace, with structured cooperation and a clear, dignified path forward.
@@ -51,7 +52,7 @@ Global democracies cooperating with Europe as peers. When EU rules have global i
 
 The European Parliament reconfigures itself for each piece of legislation. Voice is determined by who is actually bound by the rule, not by who happens to be a Member.
 
-A state in the digital sovereignty Hestia votes on digital sovereignty laws. A state outside it does not. Same Parliament — different votes, different weights, different participants — for each file. Norwegians in a Hestia vote on its legislation. Hungarians outside the Eurozone don't vote on Eurozone fiscal policy. Voice follows obligation, file by file.
+A state in the digital sovereignty Hestia votes on digital sovereignty laws. A state outside it does not. Same Parliament — different rosters, different participants — for each file. Norwegians in a Hestia vote on its legislation. Hungarians outside the Eurozone don't vote on Eurozone fiscal policy. Every vote that *is* cast counts equally; the only question is whether it is cast at all. Voice follows obligation, file by file.
 
 ### The Fiscal Key
 

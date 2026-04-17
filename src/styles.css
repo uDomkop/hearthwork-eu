@@ -1,7 +1,7 @@
 :root {
   --bg: #edf1f7;
   --ink: #202b39;
-  --ember: #1446a9;
+  --ember: #5475b8;
   --ember-glow: #4d6fbf;
   --hearth: #002266;
   --ash: #6b6b6b;
@@ -242,6 +242,18 @@ h1 {
   color: rgba(250, 246, 237, 0.75);
 }
 
+.hestia-btn .btn-capital {
+  font-size: 10px;
+  color: var(--ember);
+  letter-spacing: 0.03em;
+  margin-top: 1px;
+  opacity: 0.8;
+}
+
+.hestia-btn.active .btn-capital {
+  color: rgba(250, 246, 237, 0.85);
+}
+
 .hestia-btn:active { transform: scale(0.97); }
 
 .hestia-btn.active {
@@ -287,6 +299,15 @@ h1 {
   color: var(--ink);
   text-align: center;
   font-style: italic;
+}
+
+.hestia-capital {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ember);
+  text-align: center;
+  margin-bottom: 6px;
+  letter-spacing: 0.03em;
 }
 
 /* Map */
@@ -342,6 +363,37 @@ h1 {
 
 .country.hestia-active {
   animation: ember-pulse 2.5s ease-in-out infinite;
+}
+
+/* Capital marker on map */
+.capital-glow {
+  fill: rgba(255, 215, 0, 0.25);
+  stroke: rgba(255, 215, 0, 0.5);
+  stroke-width: 1.5;
+  animation: capital-pulse 2s ease-in-out infinite;
+}
+
+.capital-dot {
+  fill: #ffd700;
+  stroke: var(--hearth);
+  stroke-width: 1.5;
+}
+
+.capital-label {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 13px;
+  font-weight: 700;
+  fill: var(--hearth);
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+@keyframes capital-pulse {
+  0%, 100% { r: 12; opacity: 0.6; }
+  50% { r: 16; opacity: 0.3; }
 }
 
 /* Legend */
@@ -540,6 +592,13 @@ h1 {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 15px;
   font-weight: 500;
+}
+
+.hestia-capital-tag {
+  font-size: 11px;
+  color: var(--ash);
+  font-style: italic;
+  margin-left: auto;
 }
 
 /* Footer */

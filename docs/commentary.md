@@ -7,14 +7,14 @@
 
 ## Why a Commentary?
 
-A binding constitutional text must be readable in a single sitting. That means compression. But four areas — the Promotion Override, Independent Bodies, the Crisis Clause, and the Weighted Franchise — compress things that need explaining. This Commentary takes up that work.
+A binding constitutional text must be readable in a single sitting. That means compression. But four areas — the Promotion Override, Independent Bodies, the Crisis Clause, and the Equal Franchise — compress things that need explaining. This Commentary takes up that work.
 
 It does four things the Charter cannot do without losing its brevity:
 
 1. **Names the trade-offs honestly.** The Override has a cost. So does the Strategic Partner veto, the Modular Parliament, and the Crisis Clause.
 2. **Elaborates the accountability machinery.** "Triple Key system" is three words in the Charter. Here it becomes a full appointment procedure.
 3. **Specifies the Crisis Clause safeguards.** Crisis powers are history's most-abused constitutional provisions. The constraints deserve detail.
-4. **Derives the Weighted Franchise values.** The Charter's decimal weights look arbitrary unless you see where they come from.
+4. **Defends the Equal Franchise.** The Charter rejects weighted voting in a single article. That choice deserves an argument.
 
 ---
 
@@ -117,45 +117,78 @@ A Commission contemplating unusual action during Emergency Mode must consider no
 
 ---
 
-## Part Four — The Weighted Franchise
+## Part Four — The Equal Franchise
 
-*Articles 16 and 17*
+*Articles 16, 17, and 19*
 
-The Charter's decimal voting weights look arbitrary. They aren't. They derive from three factors named in Article 16:
+Earlier drafts of the Charter carried a weighted franchise — decimal voting weights derived from a formula of legal obligation, fiscal contribution, and regulatory exposure. The Twelfth Draft removes it. This Part explains why.
 
-| Factor | Weight | Rationale |
-|---|---|---|
-| **Legal obligation** | 60% | Being bound is the strongest claim to vote |
-| **Fiscal contribution** | 30% | Skin in the game is the second strongest claim |
-| **Regulatory exposure** | 10% | Spillover creates a claim, but a weaker one |
+### Why Weighted Voting Was Rejected
 
-**Formula:** Weight = 0.6 × Legal Obligation + 0.3 × Fiscal Contribution + 0.1 × Regulatory Exposure
+Weighted voting sounded principled: voice should scale with stake. In practice it produced four problems.
 
-### Standard Values Derived
+1. **Illegibility.** Citizens cannot follow a legislature where voting weights change per file and are set by formula. A Union that is opaque at the moment of decision cannot be democratic at the moment of judgement.
+2. **Arbitrariness dressed as precision.** The 60/30/10 split was defensible but not derivable. Decimal weights (0.2, 0.3, 0.7) were rounded up or down for policy reasons the formula could not name. Precision without rigour invites attack.
+3. **Permanent disputation.** Every recalibration becomes a constitutional fight. Every file's certification becomes a pre-debate of its own.
+4. **Capture surface.** A formula with three tunable inputs is a lobbying surface. The simpler the franchise, the harder it is to game.
 
-**Member on Assembly Baseline: 1.0** — Fully bound, fully pays, fully exposed. 0.6 + 0.3 + 0.1 = 1.0.
+### What Replaced It
 
-**Inner Union Associate on Assembly Baseline: 0.0** — Not bound by baseline legislation directly, doesn't pay into the baseline budget. This is the negotiated price of integration without political union.
+Voting is binary. A state either is a participant in a rule's domain or it is not. Participants vote; non-participants do not. This reduces the Charter's most complex article to a single sentence: **voice follows obligation, and obligation is a yes/no question.**
 
-**Any participant on their own Hestia: 1.0** — Whether Member or IUA, a Hestia participant is fully bound, pays the Fiscal Key, and is fully exposed. Equal obligation, equal voice.
+The resulting rules:
 
-**Non-participating Member on a Hestia: 0.3** — Formula gives 0.1 (exposure only), but the Charter rounds up to 0.3 to reflect that Members have systemic interests in all Union decisions as constitutive states.
+- **Members** vote on Assembly Baseline files. IUAs, OUAs, and Strategic Partners do not.
+- **Hestia participants** vote on their Hestia's files — with equal voice regardless of standing. A joining OUA has the same single vote as a founding Member.
+- **External Reach** is handled through consultation and the suspensive veto (Articles 28–31), not through a fractional vote on the file.
 
-**Outer Union Associate on a Hestia: 0.2** — Formula gives 0.7, but the Charter rounds *down* to reflect the asymmetric character of the OUA relationship. Voice increases as the relationship deepens.
+### The Double Majority Safeguard
 
-### The Dual Majority Safeguard
+Article 19 requires both a majority of participating **states by count** and a majority of participating **citizens by population**. This preserves the protection weighted voting was reaching for — that a small number of very large states cannot steamroll a broader group, and that a broad group of small states cannot bind a large population without its consent — without reintroducing decimals.
 
-Article 19 requires both a majority of weighted votes *and* a majority of participating states by count. Without this, a small coalition of large, high-contribution Members could outvote a broader group. The safeguard ensures decisions need both quantitative weight and qualitative breadth.
+The double majority is still binary: every state counts once; every citizen counts once; the two counts must both clear fifty percent. No formula, no recalibration, no per-file certification of weights.
 
-### Recalibration
+### What Is Lost
 
-The Constitutional Convention reviews these values every ten years. Recalibration is a technical adjustment, not a constitutional amendment — it tracks how the relationships have actually evolved rather than how they were predicted to evolve.
+The honest admission: equal voice overstates the contribution of small participants relative to large ones, and understates the spillover claim of non-participants. The Charter accepts this trade because legibility and non-gameability are worth more than fine-grained accuracy. A Union that can be read in a sitting can be defended in a campaign. A formula cannot.
+
+---
+
+## Part Five — Hestia Councils and Capitals
+
+*Article 22A*
+
+Every Hestia has a Council seated in a permanent city. This is not a ceremonial detail — it is the Charter's answer to the question citizens most often ask of supranational institutions: *where are you, and who is answerable to me?*
+
+### Why a Physical Seat Matters
+
+Integration that has no address has no face. The Commission in Brussels, the Parliament in Strasbourg, the ECB in Frankfurt — citizens may not know their precise functions, but they know where they sit. The Hestia Capital does the same work for domain-specific integration: it turns a policy domain into a place.
+
+A state joining the Green Hestia is not merely signing a compact. It is sending its environment minister to a city where that domain is governed, where decisions are made and recorded, where accountability can be demanded in person.
+
+### Composition: The Ministerial Core Plus
+
+Each participating state sends its relevant minister as of right — the Finance Minister for the Fiscal Hestia, the Defence Minister for Shield, the Environment Minister for Green. This is the ministerial core: it cannot be altered.
+
+Beyond this, each Hestia compact determines its own additional composition. Some may add technical experts with deliberative voice but no vote. Some may add citizen delegates selected by sortition. Others may remain a pure ministers' council. The Charter sets the floor; each Hestia compact builds the room.
+
+### The Council's Role: Execute, Not Legislate
+
+The Hestia Council does not pass laws. That is the Parliament's function, configured for the domain. The Council implements: it manages budgets, enforces compliance, issues implementing regulations within Parliament-passed frameworks, and runs the day-to-day administration of the Hestia.
+
+The distinction matters because it clarifies accountability. Parliament is accountable to voters. The Council is accountable to Parliament — it can be censured by a majority of the Hestia's Parliament configuration — and each minister on the Council is separately accountable to their own national parliament. A decision made in the Hestia Capital has a chain of democratic responsibility that reaches back to every participating state's electorate.
+
+### The Capital as Constitutional Fact
+
+The Hestia Capital is chosen once, by founding members, and cannot be moved without unanimous consent. This is deliberate rigidity. Capitals that can be relocated become bargaining chips — states threaten to move them, or withhold cooperation in exchange for hosting rights. Making the seat a constitutional fact removes that leverage.
+
+It also creates a kind of Hestia identity: a city whose relationship with a domain of integration is permanent, growing, and publicly visible. Over time, Hestia Capitals may develop the civic and institutional gravity that Brussels has for the Union overall — without concentrating it all in one place.
 
 ---
 
 ## Closing Note
 
-These four areas — the Override cost, the Triple Key system, the Crisis Clause, and the Weighted Franchise — are the joints where the Charter's compression most clearly costs clarity. A hostile reader will attack here first; the Charter must be ready to defend here first.
+Five areas — the Override cost, the Triple Key system, the Crisis Clause, the Equal Franchise, and the Hestia Councils — are the joints where the Charter's compression most clearly costs clarity. A hostile reader will attack here first; the Charter must be ready to defend here first.
 
 This Commentary is itself a draft. Like the Charter, it will evolve through use and criticism. Its purpose is not to settle questions but to make the Charter's reasoning visible enough that questions can be asked and answered honestly.
 
