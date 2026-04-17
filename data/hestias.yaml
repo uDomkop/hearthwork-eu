@@ -20,13 +20,13 @@
     join.
 
 - key: krone
-  label: Krone
+  label: Krona
   sub: Nordic currency
   capital: Copenhagen
   capitalCoords: [12.57, 55.68]
   description: Nordic monetary cooperation (cross-standing)
   explanation: >-
-    The Krone Hestia formalises the existing monetary coordination between the
+    The Krona Hestia formalises the existing monetary coordination between the
     Nordic countries — Denmark, Sweden, Norway, and Iceland — whose currencies
     and central banks already cooperate through the Scandinavian Monetary Union
     tradition and Nordic Council frameworks. It sits alongside the Fiscal Hearth
