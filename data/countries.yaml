@@ -117,10 +117,9 @@ IRL:
   standing: member
   population: 5.3
   note: Neutrality + island position; outside Shield and Gate
-  hestias: { fiscal: 1, shield: 0, gate: 0, loom: 1, green: 0, bench: 1, atlas: 1, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 0 }
+  hestias: { fiscal: 1, shield: 0, gate: 1, loom: 1, green: 0, bench: 1, atlas: 1, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 1, beacon: 1, lattice: 0 }
   reasons:
     shield: Constitutional neutrality and long-standing non-alignment tradition.
-    gate: Not in Schengen — common travel area with the UK pre-dates and overrides Schengen.
     green: Partial — agriculture-heavy economy with high per-capita emissions; transition ongoing.
     spring: Island geography — no transboundary river basins.
     pharmacy: Major pharma manufacturing hub (Pfizer, Lilly) due to corporate tax regime.
@@ -337,7 +336,7 @@ ISL:
   standing: inner-assoc
   population: 0.39
   note: EEA member; small economy
-  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 1, pharmacy: 0, beacon: 1, lattice: 0 }
+  hestias: { fiscal: 0, shield: 0, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 1, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
     shield: Partial — NATO founding member but no standing army; hosts Keflavík base.
     green: Near-100% renewable energy (geothermal + hydro) — natural leader.
