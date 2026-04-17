@@ -126,4 +126,4 @@ Or it can become something stronger: a Union built on choice, all the way down.
 
 *From many nations, one Union. From one Union, many fires. From choice, legitimacy.*
 
-*Manifesto for a Europe of Hestias — Thirteenth Draft Companion*
+*Manifesto for a Europe of Hestias — Fifteenth Draft Companion*

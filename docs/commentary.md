@@ -1,197 +1,154 @@
 # Commentary on the Hearthwork EU Charter
-### Interpretive Companion to the Thirteenth Draft
+### Interpretive Companion to the Fifteenth Draft
 
-*This commentary unpacks the articles where the Charter's brevity most needs explanation. It has no constitutional force — think of it as the Federalist Papers to the Charter's Constitution. Where the Charter is silent, the Commentary cannot speak. Where it is ambiguous, the Commentary offers the best reading, but the CJEU has the final word.*
-
----
-
-## Why a Commentary?
-
-A binding constitutional text must be readable in a single sitting. That means compression. But four areas — the Promotion Override, Independent Bodies, the Crisis Clause, and the Equal Franchise — compress things that need explaining. This Commentary takes up that work.
-
-It does four things the Charter cannot do without losing its brevity:
-
-1. **Names the trade-offs honestly.** The Override has a cost. So does the Strategic Partner veto, the Modular Parliament, and the Crisis Clause.
-2. **Elaborates the accountability machinery.** "Triple Key system" is three words in the Charter. Here it becomes a full appointment procedure.
-3. **Specifies the Crisis Clause safeguards.** Crisis powers are history's most-abused constitutional provisions. The constraints deserve detail.
-4. **Defends the Equal Franchise.** The Charter rejects weighted voting in a single article. That choice deserves an argument.
+*This Commentary has no constitutional force. The Charter binds; this document explains. Where the Charter is silent, the Commentary cannot speak. Where the Charter is ambiguous, the Commentary offers the best reading — but the CJEU has the final word.*
 
 ---
 
-## Part One — The Cost of the Override
+## How to Read This Commentary
 
-*Article 27*
+The Charter is short by design — it should fit in a single sitting. The cost of brevity is that some of its choices look stranger than they are. This Commentary takes the seven choices most likely to puzzle, frighten, or be misread, and explains them.
 
-The Override is the Charter's federal moment — the only provision allowing the European Parliament to overrule the Assembly of Member States. It requires a three-quarters MEP supermajority, CJEU review, and gives refusing Members a stark choice: align, or step back to Inner Union Associate status.
+It is organised by **question**, not by article number. Where an article is referenced, the new Title.Section format is used — for example, **VI.2** means the second article of Title VI.
 
-### What "Stepping Back" Actually Means
-
-A Member that refuses a promoted Hestia loses:
-- Voting rights in the Assembly of Member States
-- Representation in the European Parliament
-- The right to propose or participate in future Promotion procedures
-
-It keeps:
-- Free movement, single market access, and programme participation
-- Direct constitutional rights for its citizens
-- Hestia participation through the Modular Parliament for domains it has joined
-
-This is a real demotion of voice, not the end of the relationship. The Charter is upfront about this because pretending otherwise would be its most attackable feature.
-
-### Why It's Justified
-
-Without an Override, any single Member could permanently block deeper integration. The current EU has this problem acutely — unanimity for treaty change, Article 7 that proved unusable because it requires consensus among the very states you might want to sanction.
-
-Three layers protect against abuse:
-
-- **Rare.** Three-quarters of all MEPs — unreachable through ordinary coalitions, only through cross-party consensus on urgent issues.
-- **Costly.** Parliament knows it will demote some Members. That's a strong brake on frivolity.
-- **Reversible.** A stepped-back state can reapply for Membership. A future Parliament can depromote domains.
-
-### Worked Example
-
-A climate Hestia has operated for fifteen years with twenty-two of twenty-seven Members participating. Parliament votes 81% to promote it to the Assembly Baseline. Five non-participating Members face the Choice.
-
-Three align within the seven-year transition period. Two refuse and step back to Inner Union Associate status — keeping free movement and single market access, losing their Assembly votes.
-
-Five years later, a new government in one of the stepped-back states reverses the decision and rejoins. The federal moment was heavy, constrained, and reversible.
+If you only have time for one section, read **§4 — Why Equal Voting**, since that is where most readers will start their attack.
 
 ---
 
-## Part Two — Independent Bodies and the Triple Key
+## §1 — What Is a Hestia, Really?
 
-*Article 40*
+A Hestia is a voluntary domain of deeper integration. The Charter recognises sixteen at the time of drafting — currency, defence, climate, judicial cooperation, and so on — but the number is not fixed.
 
-The Union maintains four independent bodies: the Independent Review Commission, the Legislative Classification Body, the Rule of Law Monitoring Body, and the Standing Review Body. Each makes politically explosive decisions — whether a state is in rule of law breach, whether a domain qualifies as a Hestia, whether a rule has External Reach.
+A Hestia has four constituent parts:
 
-The Charter cannot pretend these are merely technical. The Triple Key system gives them enough independence to make hard calls and enough accountability to remain legitimate.
+1. **A compact** — the founding agreement that defines its scope, membership, and decision rules.
+2. **A Council** — the executive body of participating states' ministers, seated in a permanent capital city (VI.2).
+3. **A Citizen Panel** — sortition-selected residents who review every legislative proposal before it goes to Parliament (VI.3).
+4. **A budget** — funded by Fiscal Key contributions from each participating state, ring-fenced from other Hestia budgets (VI.4).
 
-### How Appointment Works
+A state joins a Hestia by paying its Fiscal Key. It leaves by giving notice. It can be removed only for sustained, certified breach of the compact, with full appeal rights. **No Hestia can demand more of a state than the state has chosen to give.**
 
-Every appointment requires the concurrent agreement of three keys: the European Parliament (two-thirds supermajority), the Assembly of Member States (two-thirds by population and state count), and the Court of Justice (simple majority confirmation for Charter compatibility).
-
-No appointment is valid without all three. This is deliberately more demanding than current EU appointments — the Commission needs only two keys (Council nomination + Parliament confirmation). The higher bar means any successful candidate has genuine cross-institutional credibility.
-
-The process is slow by design — six months or longer. Speed would invite political pressure on appointments.
-
-### Terms and Protections
-
-- **Non-renewable terms** (seven to eight years) — so members never need to please those who'd reappoint them.
-- **Staggered vacancies** — no single political moment can capture an entire body.
-- **Strict conflicts rules** — no concurrent positions in government, parties, or commercial entities; three-year cooling-off after tenure.
-- **Removal only for cause** — incapacity, gross misconduct, or eligibility breach. Never for the substance of decisions. Removal requires three-quarters of both Parliament and Assembly plus Court approval.
-
-### Transparency
-
-All decisions are published with full reasoning. Dissenting opinions are published alongside majorities. Deliberation summaries are released after a five-year delay — long enough to protect candid discussion, short enough for meaningful public scrutiny.
+A Hestia is not a sub-EU. It does not legislate independently — it proposes, the Modular Parliament disposes. The Council executes; Parliament passes the law.
 
 ---
 
-## Part Three — The Crisis Clause
+## §2 — Why Hestia Capitals?
 
-*Article 38*
+Each Hestia has a permanent seat — a city designated by its founding members, unmovable except by unanimous consent. This is not a ceremonial detail.
 
-Emergency Mode exists because constitutional systems must be able to act in genuine emergencies. The constraints exist because crisis powers are the most-abused provisions in any constitution. Every authoritarian transformation in recent history began with an emergency declaration.
+Integration without an address has no face. Citizens who cannot point to where a Hestia is governed cannot demand accountability from it. The Capital makes a domain of policy into a place: ministers travel there, decisions are made there, journalists cover what happens there. Over time, each Capital develops the kind of civic gravity Brussels has for the Union as a whole — without concentrating it all in one city.
 
-### Declaration
+The rigidity is intentional. Movable capitals become bargaining chips: states threaten to relocate them in exchange for political favours. The Charter forecloses that bargain.
 
-Emergency Mode requires concurrent four-fifths supermajorities of both Parliament and Assembly, voting on the same declaration text within seventy-two hours. The declaration must specify the threat, the specific powers authorised, the geographic and temporal scope, and the mechanism for early termination.
+---
 
-Either body can end Emergency Mode unilaterally by simple majority at any time. Starting an emergency requires extraordinary consensus; ending one requires only ordinary consensus.
+## §3 — How Do Citizens Push Back?
 
-### Hard Limits
+The Charter gives citizens four direct levers, beyond electing Members of the European Parliament:
 
-| Constraint | Detail |
+| Lever | What it does | Where |
+|---|---|---|
+| **State of the Union Report** | Annual published assessment of every Hestia's participation, decisions, and compliance | I.4 |
+| **Citizen Initiative for Hestia Review** | One million signatures across one-quarter of participating states forces a Parliament debate on any Hestia decision | I.5 |
+| **Hestia Citizen Panels** | Sortition-selected residents review every proposal before Parliament sees it; the Council must respond in writing | VI.3 |
+| **Public Confirmation Hearings** | Every Independent Body appointee faces a public hearing and live questioning | XI.2 |
+
+These work together. The Report tells citizens what is happening; the Panel intervenes before laws are made; the Initiative reverses laws already in force; the Hearings ensure that the watchdogs are themselves watched.
+
+A Union without these four levers would still call itself democratic. The Charter regards that label, applied to such a Union, as a lie.
+
+---
+
+## §4 — Why Equal Voting
+
+Earlier drafts of this Charter carried weighted votes — decimal weights derived from a formula of legal obligation, fiscal contribution, and regulatory exposure. The Fifteenth Draft removes weighting entirely. Voting is binary: a state either is a participant in a rule's domain or it is not. Participants vote. Non-participants do not. Every vote that *is* cast counts equally.
+
+This was the single most-contested change between drafts. The argument for keeping weights was principled — voice should scale with stake. The arguments for removing them won out:
+
+1. **Citizens cannot follow weighted voting.** A legislature where weights change per file and are calculated by formula is opaque at the moment of decision. Opacity at the moment of decision is not democracy.
+2. **Decimal weights are arbitrariness dressed as precision.** The 60/30/10 split between obligation, contribution, and exposure was defensible but not derivable. Decimal outputs (0.2, 0.3, 0.7) were rounded for policy reasons the formula could not name.
+3. **Every recalibration becomes a constitutional fight.** A formula with three tunable inputs is a permanent lobbying surface.
+4. **The simpler the franchise, the harder it is to game.**
+
+The cost of equal voting is admitted: it overstates the contribution of small participants relative to large ones, and gives non-participants no formal vote on rules with spillover effects. The Charter accepts this trade because legibility and non-gameability are worth more than fine-grained accuracy. A Union that can be read in a sitting can be defended in a campaign.
+
+The **Double Majority Safeguard** (IV.5) preserves what weighted voting was reaching for: every decision needs both a majority of participating *states* and a majority of participating *citizens*. A small bloc of large states cannot steamroll the rest; a large bloc of small states cannot bind a large population without its consent. Both counts are still binary — every state once, every citizen once — just two ways of counting the same yes-or-no participation.
+
+Spillover concerns are handled through the External Reach machinery (Title VII), which gives non-participants consultation rights, a suspensive veto, and access to an Adjustment Fund. They are heard, not merely outvoted.
+
+---
+
+## §5 — The Cost of the Override
+
+VI.9 contains the Charter's most uncomfortable provision: the **Promotion Override**. If the European Parliament wants to elevate a Hestia rule to the Assembly Baseline (binding all Members, not just participants), and the Assembly of Member States refuses, Parliament may override that refusal with a three-quarters supermajority — provided that a concurrent majority of national parliaments also approves.
+
+A Member that refuses the promoted rule does not lose Membership. It steps back to **Inner Union Associate** status, keeping free movement, single-market access, citizen rights, and Hestia participation in domains it has joined. What it loses is its vote in the Assembly and its representation in the Parliament's Baseline configuration.
+
+This is a real demotion of voice. The Charter is explicit about this because pretending otherwise would be its most attackable feature.
+
+The Override is constrained by four locks:
+
+- **Three-quarters of all MEPs** — unreachable through ordinary partisan coalitions.
+- **Concurrent national-parliament majority** — supranational and national democratic consent are both required.
+- **CJEU review for Inviolable Floor compatibility** — the Court can strike down any promotion that violates IX.1.
+- **Reversibility** — a stepped-back state can reapply for full Membership; a future Parliament can repeal the Baseline rule.
+
+Without an Override, any single Member could permanently block deeper integration. The current EU has this problem acutely (Article 7 TEU has proved unusable because it requires consensus among the very states one might want to sanction). The Override is the Charter's answer — bounded, costly, reversible, and openly stated.
+
+---
+
+## §6 — The Crisis Clause
+
+Crisis powers are the most-abused provisions in any constitution. Every authoritarian transformation in recent European history began with an emergency declaration. **X.1** exists because the Union must be able to act in genuine emergencies. The constraints exist because the lessons of those transformations are not optional.
+
+Activating Emergency Mode requires **four-fifths supermajorities of both Parliament and Assembly**, voting on the same declaration text within seventy-two hours. The declaration must specify the threat, the authorised powers, the geographic and temporal scope, and the mechanism for early termination.
+
+Five hard limits then apply:
+
+| Limit | Effect |
 |---|---|
-| **Duration** | 90 days, renewable once. 180-day absolute maximum. |
-| **Scope** | Only the specific powers listed in the declaration. No general centralisation. |
-| **Inviolable Floor** | Cannot be suspended — the right to be heard, independent dispute resolution, right of exit, non-discrimination all remain in force. |
-| **Judicial review** | CJEU can strike down specific actions within 15 days of challenge. |
-| **Post-crisis ratification** | Every significant action must be individually ratified by Parliament and Assembly within six months. Actions that fail ratification are null. |
+| **Duration** | 90 days, renewable once. 180-day absolute maximum, with no exceptions. |
+| **Scope** | Only the powers specifically enumerated in the declaration. No general centralisation. |
+| **Inviolable Floor** | IX.1 cannot be suspended even under Emergency Mode. The right of exit, non-discrimination, independent dispute resolution, and the right to be heard remain in force throughout. |
+| **Judicial review** | The CJEU may strike down individual actions within fifteen days of challenge. |
+| **Post-crisis ratification** | Every significant action must be individually ratified by Parliament and Assembly within six months. Actions that fail ratification are null retroactively. |
 
-The hard time limit is the most important constraint. Every constitutional system that allows indefinite emergency powers has watched those powers become permanent. The Charter makes the limit absolute.
+The hard time limit is the most important. Every constitutional system that allows indefinite emergency powers has watched those powers become permanent. The Charter makes the limit absolute.
 
-### The Ratification Brake
+The post-crisis ratification clause has a useful side effect: a Commission contemplating unusual action during Emergency Mode must ask not only "is this legal under the declaration?" but "will Parliament and Assembly endorse this once the crisis has passed?" Actions that seem necessary in the heat of a moment often look different in calm reflection. The clause forces that reflection.
 
-A Commission contemplating unusual action during Emergency Mode must consider not just whether it's legal under the declaration, but whether Parliament and Assembly will endorse it once the crisis has passed. Actions that seem necessary in the heat of a crisis often look different in calm reflection. This forces that reflection.
-
----
-
-## Part Four — The Equal Franchise
-
-*Articles 16, 17, and 19*
-
-Earlier drafts of the Charter carried a weighted franchise — decimal voting weights derived from a formula of legal obligation, fiscal contribution, and regulatory exposure. The Thirteenth Draft removes it. This Part explains why.
-
-### Why Weighted Voting Was Rejected
-
-Weighted voting sounded principled: voice should scale with stake. In practice it produced four problems.
-
-1. **Illegibility.** Citizens cannot follow a legislature where voting weights change per file and are set by formula. A Union that is opaque at the moment of decision cannot be democratic at the moment of judgement.
-2. **Arbitrariness dressed as precision.** The 60/30/10 split was defensible but not derivable. Decimal weights (0.2, 0.3, 0.7) were rounded up or down for policy reasons the formula could not name. Precision without rigour invites attack.
-3. **Permanent disputation.** Every recalibration becomes a constitutional fight. Every file's certification becomes a pre-debate of its own.
-4. **Capture surface.** A formula with three tunable inputs is a lobbying surface. The simpler the franchise, the harder it is to game.
-
-### What Replaced It
-
-Voting is binary. A state either is a participant in a rule's domain or it is not. Participants vote; non-participants do not. This reduces the Charter's most complex article to a single sentence: **voice follows obligation, and obligation is a yes/no question.**
-
-The resulting rules:
-
-- **Members** vote on Assembly Baseline files. IUAs, OUAs, and Strategic Partners do not.
-- **Hestia participants** vote on their Hestia's files — with equal voice regardless of standing. A joining OUA has the same single vote as a founding Member.
-- **External Reach** is handled through consultation and the suspensive veto (Articles 28–31), not through a fractional vote on the file.
-
-### The Double Majority Safeguard
-
-Article 19 requires both a majority of participating **states by count** and a majority of participating **citizens by population**. This preserves the protection weighted voting was reaching for — that a small number of very large states cannot steamroll a broader group, and that a broad group of small states cannot bind a large population without its consent — without reintroducing decimals.
-
-The double majority is still binary: every state counts once; every citizen counts once; the two counts must both clear fifty percent. No formula, no recalibration, no per-file certification of weights.
-
-### What Is Lost
-
-The honest admission: equal voice overstates the contribution of small participants relative to large ones, and understates the spillover claim of non-participants. The Charter accepts this trade because legibility and non-gameability are worth more than fine-grained accuracy. A Union that can be read in a sitting can be defended in a campaign. A formula cannot.
+Either body can end Emergency Mode unilaterally by simple majority at any time. **Starting an emergency requires extraordinary consensus; ending one requires only ordinary consensus.** This asymmetry is deliberate.
 
 ---
 
-## Part Five — Hestia Councils and Capitals
+## §7 — The Triple Key and the Watchdogs
 
-*Article 22A*
+The Charter establishes four independent bodies (XI.2): the Independent Review Commission, the Legislative Classification Body (XI.3), the Rule of Law Monitoring Body, and the Standing Review Body. Each makes politically explosive decisions — whether a state is in rule-of-law breach, whether a rule has External Reach, whether a Hestia compact is being honoured.
 
-Every Hestia has a Council seated in a permanent city. This is not a ceremonial detail — it is the Charter's answer to the question citizens most often ask of supranational institutions: *where are you, and who is answerable to me?*
+The Charter cannot pretend these are merely technical decisions. The **Triple Key** system gives them enough independence to make hard calls and enough accountability to remain legitimate.
 
-### Why a Physical Seat Matters
+Every appointment requires three concurrent keys:
 
-Integration that has no address has no face. The Commission in Brussels, the Parliament in Strasbourg, the ECB in Frankfurt — citizens may not know their precise functions, but they know where they sit. The Hestia Capital does the same work for domain-specific integration: it turns a policy domain into a place.
+- **European Parliament** — two-thirds supermajority
+- **Assembly of Member States** — two-thirds by both state count and population
+- **Court of Justice** — confirmation of Charter compatibility
 
-A state joining the Green Hestia is not merely signing a compact. It is sending its environment minister to a city where that domain is governed, where decisions are made and recorded, where accountability can be demanded in person.
+No appointment is valid without all three. This is deliberately more demanding than the current Commission appointment process. The slow pace (six months minimum) is also deliberate: speed invites political pressure on appointments.
 
-### Composition: The Ministerial Core Plus
+Once appointed, members serve **non-renewable seven-to-eight-year terms**, staggered so no single political moment captures an entire body. They cannot hold concurrent government, party, or commercial positions, and face a three-year cooling-off period after tenure. They can be removed only for cause — incapacity, gross misconduct, or eligibility breach — never for the substance of their decisions, and only by three-quarters of Parliament *and* Assembly *and* the Court.
 
-Each participating state sends its relevant minister as of right — the Finance Minister for the Fiscal Hestia, the Defence Minister for Shield, the Environment Minister for Green. This is the ministerial core: it cannot be altered.
+All decisions are published with full reasoning. Dissents are published alongside majorities. Deliberation summaries are released after a five-year delay — long enough to protect candid discussion, short enough for meaningful public scrutiny.
 
-Beyond this, each Hestia compact determines its own additional composition. Some may add technical experts with deliberative voice but no vote. Some may add citizen delegates selected by sortition. Others may remain a pure ministers' council. The Charter sets the floor; each Hestia compact builds the room.
-
-### The Council's Role: Execute, Not Legislate
-
-The Hestia Council does not pass laws. That is the Parliament's function, configured for the domain. The Council implements: it manages budgets, enforces compliance, issues implementing regulations within Parliament-passed frameworks, and runs the day-to-day administration of the Hestia.
-
-The distinction matters because it clarifies accountability. Parliament is accountable to voters. The Council is accountable to Parliament — it can be censured by a majority of the Hestia's Parliament configuration — and each minister on the Council is separately accountable to their own national parliament. A decision made in the Hestia Capital has a chain of democratic responsibility that reaches back to every participating state's electorate.
-
-### The Capital as Constitutional Fact
-
-The Hestia Capital is chosen once, by founding members, and cannot be moved without unanimous consent. This is deliberate rigidity. Capitals that can be relocated become bargaining chips — states threaten to move them, or withhold cooperation in exchange for hosting rights. Making the seat a constitutional fact removes that leverage.
-
-It also creates a kind of Hestia identity: a city whose relationship with a domain of integration is permanent, growing, and publicly visible. Over time, Hestia Capitals may develop the civic and institutional gravity that Brussels has for the Union overall — without concentrating it all in one place.
+Each candidate also faces a **public confirmation hearing** before the relevant Parliament committee, with live questioning from MEPs and citizen delegates, transcripts published. No appointment may proceed until that hearing is complete.
 
 ---
 
 ## Closing Note
 
-Five areas — the Override cost, the Triple Key system, the Crisis Clause, the Equal Franchise, and the Hestia Councils — are the joints where the Charter's compression most clearly costs clarity. A hostile reader will attack here first; the Charter must be ready to defend here first.
+Seven choices — what a Hestia is, why each has a Capital, how citizens push back, why voting is equal, the cost of the Override, the Crisis Clause, and the Triple Key — are the joints where the Charter's compression most clearly costs clarity. A hostile reader will attack here first; the Charter must be ready to defend here first.
 
-This Commentary is itself a draft. Like the Charter, it will evolve through use and criticism. Its purpose is not to settle questions but to make the Charter's reasoning visible enough that questions can be asked and answered honestly.
+This Commentary is a draft. Like the Charter, it will evolve through use and criticism. Its purpose is not to settle questions but to make the Charter's reasoning visible enough that the questions can be asked — and answered — honestly.
 
 *From many nations, one Union. From one Union, many fires. From choice, legitimacy.*
 
-*Lean Commentary on the Thirteenth Draft — April 2026*
+*Lean Commentary on the Fifteenth Draft — April 2026*
