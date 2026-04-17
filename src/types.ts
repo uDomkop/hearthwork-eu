@@ -4,6 +4,8 @@ export interface Hestia {
   sub: string;
   description: string;
   explanation: string;
+  capital?: string;
+  capitalCoords?: [number, number];
 }
 
 export interface Standing {

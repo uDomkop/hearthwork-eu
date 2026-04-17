@@ -37,6 +37,7 @@ const hestiaItems = computed(() => {
   return typedHestias.map(h => ({
     key: h.key,
     label: h.label,
+    capital: h.capital ?? null,
     active: country.value!.hestias[h.key] === 1,
     reason: reasons[h.key] ?? null,
   }));
@@ -78,6 +79,7 @@ watch([() => state.selectedCountry, () => state.selectedNonFramework], () => {
         <div v-for="h in hestiaItems" :key="h.key" class="hestia-item">
           <span class="hestia-mark" :class="h.active ? 'mark-full' : 'mark-none'">{{ h.active ? '●' : '○' }}</span>
           <span class="hestia-name">{{ h.label }}</span>
+          <span v-if="h.capital" class="hestia-capital-tag">{{ h.capital }}</span>
           <span v-if="h.reason" class="hestia-reason">{{ h.reason }}</span>
         </div>
       </div>

@@ -31,6 +31,7 @@ const currentHestia = computed<Hestia | null>(() => {
       >
         <span class="btn-name">{{ h.label }}</span>
         <span class="btn-sub">{{ h.sub }}</span>
+        <span v-if="h.capital" class="btn-capital">{{ h.capital }}</span>
       </button>
     </div>
   </div>
@@ -38,6 +39,7 @@ const currentHestia = computed<Hestia | null>(() => {
   <div v-if="currentHestia" class="hestia-description">
     <div class="hestia-description-content">
       <div v-if="currentHestia.description" class="hestia-description-title">{{ currentHestia.description }}</div>
+      <div v-if="currentHestia.capital" class="hestia-capital">Capital: {{ currentHestia.capital }}</div>
       <div v-if="currentHestia.explanation" class="hestia-description-text">{{ currentHestia.explanation }}</div>
     </div>
   </div>

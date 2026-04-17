@@ -4,11 +4,12 @@ import { geoConicConformal, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import type { GeometryCollection, Topology } from 'topojson-specification';
 import { useAppState } from '../composables/useAppState';
-import type { CountryData, IsoMappings, MapCountry, Standing, NonFrameworkEntry } from '../types';
+import type { CountryData, IsoMappings, MapCountry, Standing, NonFrameworkEntry, Hestia } from '../types';
 import countryData from '../../data/countries.yaml';
 import isoMappings from '../../data/iso-mappings.yaml';
 import nonFramework from '../../data/non-framework.yaml';
 import standings from '../../data/standings.yaml';
+import hestias from '../../data/hestias.yaml';
 
 const typedCountryData = countryData as Record<string, CountryData>;
 const typedIsoMappings = isoMappings as IsoMappings;
@@ -102,6 +103,18 @@ function handleClick(country: MapCountry) {
   }
 }
 
+const typedHestias = hestias as Hestia[];
+
+const capitalMarker = computed(() => {
+  if (state.currentView === 'standings') return null;
+  const hestia = typedHestias.find(h => h.key === state.currentView);
+  if (!hestia?.capitalCoords || !hestia.capital) return null;
+  const [lon, lat] = hestia.capitalCoords;
+  const projected = projection([lon, lat]);
+  if (!projected) return null;
+  return { x: projected[0], y: projected[1], name: hestia.capital };
+});
+
 const fallbackHtml = computed(() => {
   const byStanding: Record<string, string[]> = { member: [], 'inner-assoc': [], 'outer-assoc': [], strategic: [] };
   Object.entries(typedCountryData).forEach(([, data]) => {
@@ -156,6 +169,11 @@ onMounted(async () => {
         :style="{ fill: c.fill, opacity: c.opacity }"
         @click="handleClick(c)"
       />
+      <g v-if="capitalMarker" class="capital-marker-group">
+        <circle :cx="capitalMarker.x" :cy="capitalMarker.y" r="12" class="capital-glow" />
+        <circle :cx="capitalMarker.x" :cy="capitalMarker.y" r="5" class="capital-dot" />
+        <text :x="capitalMarker.x" :y="capitalMarker.y - 16" class="capital-label">{{ capitalMarker.name }}</text>
+      </g>
     </svg>
   </div>
 </template>
