@@ -380,9 +380,11 @@ GRL:
 
 UKR:
   name: Ukraine
-  standing: outer-assoc
-  aspirant: true
-  note: War-shaped accelerated path; transitioning to Member
+  standing: inner-assoc
+  note: >-
+    War-shaped accelerated path; transitioning to Member. Crimea and parts of
+    eastern Ukraine remain under Russian occupation — the Charter recognises
+    Ukraine's internationally recognised borders.
   hestias: { fiscal: 0, shield: 1, gate: 0.5, loom: 0.5, green: 0, bench: 0.5, atlas: 0.5, forge: 0.5, library: 0.5, spring: 1, anchor: 1, lyre: 0.5, krone: 0, pharmacy: 0.5, beacon: 0.5, lattice: 0.5 }
   reasons:
     shield: Full participant — frontline state; de facto security guarantees via bilateral agreements.
