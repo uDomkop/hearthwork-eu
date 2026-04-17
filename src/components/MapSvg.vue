@@ -129,7 +129,7 @@ const fallbackHtml = computed(() => {
 
 onMounted(async () => {
   try {
-    const response = await fetch('./countries-110m.json');
+    const response = await fetch('./countries-50m.json');
     const world = await response.json();
     geoFeatures.value = feature(world as Topology, world.objects.countries as GeometryCollection).features;
     loading.value = false;
