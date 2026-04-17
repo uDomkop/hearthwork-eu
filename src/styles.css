@@ -351,11 +351,21 @@ h1 {
   flex-shrink: 0;
 }
 
-.legend-swatch-aspirant {
+.legend-swatch-aspirant-iua {
   background: repeating-linear-gradient(
     45deg,
     #8aa68a,
     #8aa68a 2px,
+    #7494c4 2px,
+    #7494c4 4px
+  );
+}
+
+.legend-swatch-aspirant-member {
+  background: repeating-linear-gradient(
+    45deg,
+    #7494c4,
+    #7494c4 2px,
     #2854ab 2px,
     #2854ab 4px
   );

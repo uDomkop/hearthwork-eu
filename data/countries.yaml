@@ -381,6 +381,7 @@ GRL:
 UKR:
   name: Ukraine
   standing: inner-assoc
+  aspirant: member
   note: >-
     War-shaped accelerated path; transitioning to Member. Crimea and parts of
     eastern Ukraine remain under Russian occupation — the Charter recognises
@@ -396,7 +397,7 @@ UKR:
 MDA:
   name: Moldova
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: Eastern Partnership; on Member track
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0.5, green: 0, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 1, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
@@ -407,7 +408,7 @@ MDA:
 MNE:
   name: Montenegro
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: Most advanced Western Balkans candidate
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0.5, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0.5, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
@@ -417,7 +418,7 @@ MNE:
 ALB:
   name: Albania
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: Standard Western Balkans accession path
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0.5, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
@@ -426,14 +427,14 @@ ALB:
 MKD:
   name: North Macedonia
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: Long-blocked accession finally moving
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 0, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
 
 SRB:
   name: Serbia
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: Russia alignment complicates the path
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0.5, spring: 1, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
@@ -444,7 +445,7 @@ SRB:
 BIH:
   name: Bosnia and Herzegovina
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: Constitutional reform precondition
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0.5, anchor: 0, lyre: 0.5, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
@@ -455,7 +456,7 @@ BIH:
 XKX:
   name: Kosovo
   standing: outer-assoc
-  aspirant: true
+  aspirant: iua
   note: >-
     Five Members withhold recognition. Under the Charter, progression to Inner
     Union Associate via bilateral compact sidesteps the Member-vote question
@@ -532,3 +533,11 @@ ISR:
     review. All Hestia participation set to zero — no active fires until
     conditions for re-engagement are met.
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+
+AZE:
+  name: Azerbaijan
+  standing: strategic
+  note: Energy cooperation; Caspian gas corridor
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 1 }
+  reasons:
+    lattice: Full participant — Southern Gas Corridor (TAP/TANAP) supplies Caspian gas to the EU grid.

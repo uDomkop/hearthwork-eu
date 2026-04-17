@@ -38,28 +38,53 @@ export function drawMap(world, countryData, isoMappings, nonFramework, onSelect,
   ocean.setAttribute('class', 'country-water');
   svg.appendChild(ocean);
 
-  // Stripe pattern for aspirant countries
+  // Stripe patterns for aspirant countries
   const defs = document.createElementNS(SVG_NS, 'defs');
-  const pattern = document.createElementNS(SVG_NS, 'pattern');
-  pattern.setAttribute('id', 'pattern-aspirant');
-  pattern.setAttribute('patternUnits', 'userSpaceOnUse');
-  pattern.setAttribute('width', '6');
-  pattern.setAttribute('height', '6');
-  pattern.setAttribute('patternTransform', 'rotate(45)');
-  const rect = document.createElementNS(SVG_NS, 'rect');
-  rect.setAttribute('width', '6');
-  rect.setAttribute('height', '6');
-  rect.setAttribute('fill', '#8aa68a');
-  pattern.appendChild(rect);
-  const line = document.createElementNS(SVG_NS, 'line');
-  line.setAttribute('x1', '0');
-  line.setAttribute('y1', '0');
-  line.setAttribute('x2', '0');
-  line.setAttribute('y2', '6');
-  line.setAttribute('stroke', '#2854ab');
-  line.setAttribute('stroke-width', '2.5');
-  pattern.appendChild(line);
-  defs.appendChild(pattern);
+
+  // OUA aspiring to IUA: outer-assoc green + inner-assoc blue stripes
+  const patIua = document.createElementNS(SVG_NS, 'pattern');
+  patIua.setAttribute('id', 'pattern-aspirant-iua');
+  patIua.setAttribute('patternUnits', 'userSpaceOnUse');
+  patIua.setAttribute('width', '6');
+  patIua.setAttribute('height', '6');
+  patIua.setAttribute('patternTransform', 'rotate(45)');
+  const rectIua = document.createElementNS(SVG_NS, 'rect');
+  rectIua.setAttribute('width', '6');
+  rectIua.setAttribute('height', '6');
+  rectIua.setAttribute('fill', '#8aa68a');
+  patIua.appendChild(rectIua);
+  const lineIua = document.createElementNS(SVG_NS, 'line');
+  lineIua.setAttribute('x1', '0');
+  lineIua.setAttribute('y1', '0');
+  lineIua.setAttribute('x2', '0');
+  lineIua.setAttribute('y2', '6');
+  lineIua.setAttribute('stroke', '#7494c4');
+  lineIua.setAttribute('stroke-width', '2.5');
+  patIua.appendChild(lineIua);
+  defs.appendChild(patIua);
+
+  // IUA aspiring to Member: inner-assoc blue + member blue stripes
+  const patMem = document.createElementNS(SVG_NS, 'pattern');
+  patMem.setAttribute('id', 'pattern-aspirant-member');
+  patMem.setAttribute('patternUnits', 'userSpaceOnUse');
+  patMem.setAttribute('width', '6');
+  patMem.setAttribute('height', '6');
+  patMem.setAttribute('patternTransform', 'rotate(45)');
+  const rectMem = document.createElementNS(SVG_NS, 'rect');
+  rectMem.setAttribute('width', '6');
+  rectMem.setAttribute('height', '6');
+  rectMem.setAttribute('fill', '#7494c4');
+  patMem.appendChild(rectMem);
+  const lineMem = document.createElementNS(SVG_NS, 'line');
+  lineMem.setAttribute('x1', '0');
+  lineMem.setAttribute('y1', '0');
+  lineMem.setAttribute('x2', '0');
+  lineMem.setAttribute('y2', '6');
+  lineMem.setAttribute('stroke', '#2854ab');
+  lineMem.setAttribute('stroke-width', '2.5');
+  patMem.appendChild(lineMem);
+  defs.appendChild(patMem);
+
   svg.appendChild(defs);
 
   // Draw countries
@@ -74,7 +99,7 @@ export function drawMap(world, countryData, isoMappings, nonFramework, onSelect,
     path.setAttribute('class', data ? 'country' : 'country country-non-eu');
     path.setAttribute('data-alpha3', alpha3 || '');
     if (data && data.aspirant) {
-      path.setAttribute('data-aspirant', 'true');
+      path.setAttribute('data-aspirant', data.aspirant);
     }
     const featureName = (feat.properties && feat.properties.name) || '';
     path.setAttribute('data-name', featureName);
