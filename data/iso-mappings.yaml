@@ -1,0 +1,58 @@
+# TopoJSON countries-110m uses numeric ISO codes in feature.id.
+# Map those to the alpha-3 codes keyed in countries.yaml.
+# Keys are plain integers (no zero-padding) to avoid octal-literal issues in
+# the generated JS module.
+numericToAlpha3:
+  8: ALB
+  12: DZA
+  40: AUT
+  51: ARM
+  56: BEL
+  70: BIH
+  100: BGR
+  191: HRV
+  196: CYP
+  203: CZE
+  208: DNK
+  233: EST
+  246: FIN
+  250: FRA
+  268: GEO
+  276: DEU
+  300: GRC
+  304: GRL
+  348: HUN
+  352: ISL
+  372: IRL
+  376: ISR
+  380: ITA
+  428: LVA
+  438: LIE
+  440: LTU
+  442: LUX
+  470: MLT
+  498: MDA
+  499: MNE
+  504: MAR
+  528: NLD
+  578: NOR
+  616: POL
+  620: PRT
+  642: ROU
+  688: SRB
+  703: SVK
+  705: SVN
+  724: ESP
+  752: SWE
+  756: CHE
+  788: TUN
+  792: TUR
+  804: UKR
+  807: MKD
+  826: GBR
+  983: XKX
+
+# Fallback: some features (notably Kosovo) have no numeric ISO code because
+# their status is contested. Match on feature.properties.name instead.
+nameToAlpha3:
+  Kosovo: XKX

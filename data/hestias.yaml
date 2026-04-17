@@ -1,0 +1,208 @@
+# Hestias — voluntary domains of deeper integration.
+# Keys are the identifiers used in countries.yaml under each country's `hestias:` block.
+# Order here controls display order in the button bar and in the detail panel.
+#
+# `description` is the one-liner shown in the legend.
+# `explanation` is the fuller text shown when a Hestia is selected.
+
+- key: fiscal
+  label: Fiscal Hearth
+  sub: Eurozone
+  description: Eurozone — common currency and fiscal coordination
+  explanation: >-
+    The Fiscal Hearth is the euro area and its surrounding fiscal architecture.
+    Participants share a common currency, coordinate budgetary policy through
+    the Stability and Growth Pact successor framework, and contribute to a
+    common fiscal capacity for asymmetric shocks. Full participants have adopted
+    the euro; partial participants are in ERM II or have a formal convergence
+    programme. Non-participants retain their own currency with no obligation to
+    join.
+
+- key: krone
+  label: Krone
+  sub: Nordic currency
+  description: Nordic monetary cooperation (cross-standing)
+  explanation: >-
+    The Krone Hestia formalises the existing monetary coordination between the
+    Nordic countries — Denmark, Sweden, Norway, and Iceland — whose currencies
+    and central banks already cooperate through the Scandinavian Monetary Union
+    tradition and Nordic Council frameworks. It sits alongside the Fiscal Hearth
+    as a parallel currency coordination zone, open to any state with a floating
+    currency pegged or correlated to the Nordic basket. It is the Charter's
+    proof-of-concept that Hestias need not be subordinate to the euro.
+
+- key: shield
+  label: Shield
+  sub: defence
+  description: Defence — shared procurement and mutual defence
+  explanation: >-
+    The Shield is the Union's defence Hestia. Participants commit to mutual
+    defence obligations, joint procurement through a common defence fund, shared
+    military planning, and interoperability standards. It builds on the existing
+    PESCO framework but adds binding procurement commitments and a mutual
+    defence clause stronger than NATO Article 5 for intra-Union conflicts.
+    States with constitutional neutrality (Austria, Ireland, Malta) may opt out
+    entirely or participate partially in procurement without the mutual defence
+    obligation.
+
+- key: gate
+  label: Gate
+  sub: Schengen
+  description: Schengen — border management and free movement
+  explanation: >-
+    The Gate absorbs and extends the Schengen acquis: passport-free travel,
+    common visa policy, shared external border management via Frontex, and the
+    Schengen Information System. Full participants remove internal border
+    controls entirely. Partial participants are in the process of accession or
+    maintain temporary border controls under the safeguard clause. Non-
+    participants maintain their own border regime.
+
+- key: atlas
+  label: Atlas
+  sub: ESA / space
+  description: Space cooperation — descended from ESA tradition
+  explanation: >-
+    Atlas formalises Europe's space cooperation, descended from the ESA
+    tradition. Participants jointly fund launcher development, satellite
+    programmes, Earth observation, and space situational awareness. Full
+    participation means contribution to the common space budget and access to
+    all programme data; partial participation covers specific programmes only.
+    The Hestia preserves ESA's tradition of juste retour while adding a
+    strategic autonomy objective for launch capability.
+
+- key: anchor
+  label: Anchor
+  sub: maritime
+  description: Maritime cooperation and coast guards
+  explanation: >-
+    The Anchor covers maritime cooperation: shared coast guard operations,
+    search and rescue coordination, maritime surveillance, port state control,
+    and protection of exclusive economic zones. Particularly relevant for
+    Mediterranean, Atlantic, Baltic, and Arctic-facing states. Full
+    participation implies commitment to joint patrols and shared maritime
+    domain awareness; partial participation covers information-sharing and
+    training.
+
+- key: bench
+  label: Bench
+  sub: judicial
+  description: Judicial cooperation and mutual recognition
+  explanation: >-
+    The Bench is the judicial cooperation Hestia. Participants accept mutual
+    recognition of court judgments, the European Arrest Warrant framework,
+    cross-border evidence procedures, and minimum standards for criminal
+    procedural rights. Full participation requires alignment with the rule of
+    law mechanism and the CJEU's jurisdiction over judicial cooperation
+    matters. Partial participation may exclude criminal matters or limit mutual
+    recognition to civil and commercial cases.
+
+- key: green
+  label: Green
+  sub: climate & energy
+  description: Climate policy and energy transition
+  explanation: >-
+    The Green Hestia encompasses climate policy and the energy transition:
+    binding emissions reduction targets, carbon pricing through the ETS, the
+    Carbon Border Adjustment Mechanism, renewable energy mandates, and a Just
+    Transition Fund for coal-dependent regions. Full participants accept all
+    obligations; partial participants may have transitional derogations for
+    heavy industry or energy-poor regions.
+
+- key: forge
+  label: Forge
+  sub: industry
+  description: Industrial policy and strategic manufacturing
+  explanation: >-
+    The Forge is the Union's industrial policy Hestia. Participants coordinate
+    strategic manufacturing capacity — semiconductors, batteries, critical raw
+    materials, advanced manufacturing — through joint investment vehicles,
+    shared supply chain mapping, and common standards for strategic autonomy.
+    It operationalises the principle that Europe must make what it needs.
+    Full participation means commitment to the common investment fund and
+    acceptance of supply chain disclosure obligations.
+
+- key: loom
+  label: Loom
+  sub: digital
+  description: Digital and telecommunications coordination
+  explanation: >-
+    The Loom covers digital governance: data protection (GDPR successor),
+    AI regulation, platform governance, telecommunications interoperability,
+    digital identity, and cybersecurity standards. Full participants adopt the
+    complete digital acquis and contribute to the digital sovereignty fund.
+    Partial participation may cover data protection and cybersecurity without
+    the full AI governance framework.
+
+- key: library
+  label: Library
+  sub: education
+  description: Cultural and educational cooperation
+  explanation: >-
+    The Library is the education and cultural cooperation Hestia. It encompasses
+    academic mobility (the Erasmus successor), mutual recognition of diplomas
+    and professional qualifications, joint research university networks, and
+    cultural exchange programmes. Full participation includes commitment to
+    tuition reciprocity and student mobility targets. Nearly all states
+    participate at some level, making this one of the most broadly subscribed
+    Hestias.
+
+- key: spring
+  label: Spring
+  sub: water
+  description: Water and environmental stewardship
+  explanation: >-
+    The Spring covers transboundary water management and environmental
+    stewardship: river basin coordination (Danube, Rhine, Elbe), water quality
+    standards, flood prevention, drought management, and biodiversity
+    protection in freshwater ecosystems. Participation is particularly shaped
+    by geography — states sharing major river basins tend toward full
+    participation, while island and coastal states may participate less.
+
+- key: pharmacy
+  label: Pharmacy
+  sub: health
+  description: Healthcare cooperation and pharmaceutical coordination
+  explanation: >-
+    The Pharmacy encompasses healthcare cooperation: joint pharmaceutical
+    procurement, pandemic preparedness through HERA, cross-border patient
+    rights, mutual recognition of medical qualifications, and coordination of
+    health technology assessment. Full participants commit to joint stockpiling
+    and shared procurement; partial participants may limit participation to
+    pandemic response and cross-border care.
+
+- key: beacon
+  label: Beacon
+  sub: research
+  description: Research and innovation programmes
+  explanation: >-
+    The Beacon is the research and innovation Hestia, successor to Horizon
+    Europe. Participants fund and access joint research programmes, shared
+    research infrastructure (CERN model), and innovation transfer networks.
+    Full participation means contribution to the common research budget and
+    full access to results; partial participation covers associated-country
+    status in specific programmes.
+
+- key: lattice
+  label: Lattice
+  sub: energy grid
+  description: Energy infrastructure and grid interconnection
+  explanation: >-
+    The Lattice governs energy infrastructure: cross-border electricity and gas
+    grid interconnection, shared energy storage, hydrogen corridor development,
+    and coordinated energy market coupling. It operationalises the physical
+    infrastructure that makes the Green Hestia's policy targets achievable.
+    Full participation requires commitment to interconnection capacity targets
+    and shared grid investment; partial participation covers market coupling
+    without infrastructure obligations.
+
+- key: lyre
+  label: Lyre
+  sub: heritage
+  description: Cultural heritage and the arts
+  explanation: >-
+    The Lyre is the cultural heritage Hestia. Participants coordinate
+    protection of shared European cultural heritage — architectural
+    conservation, museum cooperation, repatriation frameworks, support for
+    minority languages, and funding for the arts. It is the softest of the
+    Hestias, with few binding obligations, but it carries symbolic weight as
+    the expression of what the Union is for beyond economics and security.

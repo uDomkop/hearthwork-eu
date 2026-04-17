@@ -1,0 +1,424 @@
+:root {
+  --bg: #f4ede0;
+  --ink: #1a1612;
+  --ember: #c4502a;
+  --ember-glow: #e8794d;
+  --hearth: #8b3a1a;
+  --ash: #6b6b6b;
+  --paper: #faf6ed;
+  --shadow: rgba(26, 22, 18, 0.12);
+
+  --member: #c4502a;
+  --inner-assoc: #d4a574;
+  --outer-assoc: #8aa68a;
+  --strategic: #6b8aa6;
+  --non: #d8d4cc;
+  --eu-non: #b8b4ac;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', 'Iowan Old Style', 'Palatino', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse at top, rgba(196, 80, 42, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(139, 58, 26, 0.04) 0%, transparent 50%);
+}
+
+header {
+  text-align: center;
+  padding: 28px 20px 16px;
+  border-bottom: 1px solid rgba(26, 22, 18, 0.1);
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(28px, 7vw, 42px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  color: var(--hearth);
+}
+
+.subtitle {
+  font-style: italic;
+  color: var(--ash);
+  font-size: clamp(14px, 3.5vw, 17px);
+  margin-top: 6px;
+  letter-spacing: 0.02em;
+}
+
+.epigraph {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ember);
+  margin-top: 12px;
+  letter-spacing: 0.04em;
+}
+
+/* Hestia selector */
+.hestia-bar {
+  background: var(--paper);
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid rgba(26, 22, 18, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+.hestia-bar-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--ash);
+  text-align: center;
+  font-family: 'Iowan Old Style', Georgia, serif;
+}
+
+.hestia-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.hestia-btn {
+  background: transparent;
+  border: 1.5px solid rgba(26, 22, 18, 0.2);
+  color: var(--ink);
+  padding: 8px 6px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  min-height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.hestia-btn .btn-name {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.hestia-btn .btn-sub {
+  font-size: 11px;
+  color: var(--ash);
+  font-style: italic;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
+.hestia-btn.active .btn-sub {
+  color: rgba(250, 246, 237, 0.75);
+}
+
+.hestia-btn:active { transform: scale(0.97); }
+
+.hestia-btn.active {
+  background: var(--ember);
+  border-color: var(--ember);
+  color: var(--paper);
+  box-shadow: 0 2px 8px rgba(196, 80, 42, 0.3);
+}
+
+.hestia-btn.standings {
+  grid-column: span 2;
+  background: rgba(26, 22, 18, 0.04);
+  font-style: italic;
+}
+
+.hestia-btn.standings.active {
+  background: var(--hearth);
+  border-color: var(--hearth);
+  font-style: normal;
+}
+
+/* Map */
+.map-container {
+  position: relative;
+  width: 100%;
+  background: var(--paper);
+  overflow: hidden;
+}
+
+#map-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.country {
+  cursor: pointer;
+  stroke: var(--ink);
+  stroke-width: 0.4;
+}
+
+.country:hover {
+  filter: brightness(1.2);
+}
+
+.country.selected {
+  filter: brightness(1.25);
+  stroke: var(--ember);
+  stroke-width: 1.2;
+}
+
+.country-non-eu {
+  fill: var(--eu-non);
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.country-non-eu:hover {
+  opacity: 0.65;
+}
+
+.country-water {
+  fill: rgba(107, 138, 166, 0.1);
+}
+
+/* Pulse animation for selected Hestia participants */
+@keyframes ember-pulse {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.15); }
+}
+
+.country.hestia-active {
+  animation: ember-pulse 2.5s ease-in-out infinite;
+}
+
+/* Legend */
+.legend {
+  background: var(--paper);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid rgba(26, 22, 18, 0.08);
+  border-bottom: 1px solid rgba(26, 22, 18, 0.08);
+}
+
+.legend-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--ash);
+  text-align: center;
+  margin-bottom: 4px;
+  font-family: 'Iowan Old Style', Georgia, serif;
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  font-size: 14px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-swatch {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 1px solid rgba(26, 22, 18, 0.2);
+  flex-shrink: 0;
+}
+
+.legend-text { font-size: 14px; }
+
+.legend-explanation {
+  grid-column: 1 / -1;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--ash);
+  line-height: 1.5;
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(26, 22, 18, 0.08);
+}
+
+/* Country detail panel */
+.detail-panel {
+  background: var(--paper);
+  padding: 20px 18px;
+  border-top: 2px solid var(--ember);
+  min-height: 200px;
+}
+
+.detail-empty {
+  color: var(--ash);
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--hearth);
+  margin-bottom: 4px;
+  line-height: 1.1;
+}
+
+.detail-standing {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 14px;
+  font-family: 'Iowan Old Style', Georgia, serif;
+  color: var(--paper);
+  font-weight: 600;
+}
+
+.standing-member { background: var(--member); }
+.standing-inner { background: var(--inner-assoc); color: var(--ink); }
+.standing-outer { background: var(--outer-assoc); color: var(--ink); }
+.standing-strategic { background: var(--strategic); }
+.standing-non-eu { background: var(--ash); }
+
+.detail-note {
+  font-style: italic;
+  color: var(--ash);
+  font-size: 14px;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.hestia-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.hestia-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 6px 10px;
+  background: rgba(26, 22, 18, 0.03);
+  border-radius: 2px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.hestia-item.has-reason {
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+}
+
+.hestia-item.has-reason > .hestia-mark,
+.hestia-item.has-reason > .hestia-name {
+  display: inline;
+}
+
+.hestia-reason {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ash);
+  line-height: 1.4;
+  padding-left: 24px;
+}
+
+.hestia-mark {
+  font-size: 16px;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.mark-full { color: var(--ember); }
+.mark-partial { color: #b8893a; }
+.mark-none { color: var(--ash); opacity: 0.5; }
+
+.hestia-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  padding: 24px 20px 40px;
+  text-align: center;
+  color: var(--ash);
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+footer .quote {
+  font-size: 15px;
+  color: var(--hearth);
+  margin-bottom: 8px;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ash);
+  font-style: italic;
+}
+
+.loading::after {
+  content: ' ...';
+  animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+  0%, 20% { content: ''; }
+  40% { content: ' .'; }
+  60% { content: ' ..'; }
+  80%, 100% { content: ' ...'; }
+}
+
+/* Tablet/desktop refinements */
+@media (min-width: 600px) {
+  .hestia-buttons { grid-template-columns: repeat(4, 1fr); }
+  .hestia-btn.standings { grid-column: span 4; }
+}
+@media (min-width: 900px) {
+  body { font-size: 18px; }
+  .hestia-buttons { grid-template-columns: repeat(8, 1fr); max-width: 900px; margin: 0 auto; }
+  .hestia-btn.standings { grid-column: span 8; }
+  .legend-grid { grid-template-columns: repeat(5, 1fr); }
+  .map-container { max-width: 900px; margin: 0 auto; }
+  .detail-panel { max-width: 700px; margin: 0 auto; }
+  .hestia-list { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Print friendly */
+@media print {
+  .hestia-bar { position: static; }
+}

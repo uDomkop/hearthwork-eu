@@ -1,0 +1,20 @@
+member:
+  label: Member
+  className: standing-member
+  color: var(--member)
+inner-assoc:
+  label: Inner Union Associate
+  className: standing-inner
+  color: var(--inner-assoc)
+outer-assoc:
+  label: Outer Union Associate
+  className: standing-outer
+  color: var(--outer-assoc)
+strategic:
+  label: Strategic Partner
+  className: standing-strategic
+  color: var(--strategic)
+non-eu:
+  label: Outside Union framework
+  className: standing-non-eu
+  color: var(--eu-non)

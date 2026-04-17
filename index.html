@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>The European Hearth — Charter Map</title>
+</head>
+<body>
+
+<header>
+  <h1>An EU of Hestias</h1>
+  <p class="subtitle">Charter standings and the fires that burn</p>
+  <p class="epigraph">From many, one. From one, many.</p>
+</header>
+
+<div class="hestia-bar">
+  <div class="hestia-bar-label">Tap a fire to see who tends it</div>
+  <div class="hestia-buttons" id="hestia-buttons">
+    <!-- Buttons generated dynamically from hestias.yaml -->
+  </div>
+</div>
+
+<div class="map-container">
+  <div id="map-loading" class="loading">Drawing the map</div>
+  <svg id="map-svg" viewBox="0 0 800 700" preserveAspectRatio="xMidYMid meet" style="display:none;"></svg>
+</div>
+
+<div class="legend" id="legend">
+  <div class="legend-title" id="legend-title">Standings</div>
+  <div class="legend-grid" id="legend-grid"></div>
+</div>
+
+<div class="detail-panel" id="detail-panel">
+  <div class="detail-empty">Tap a country to see its standing and which fires it tends.</div>
+</div>
+
+<footer>
+  <div class="quote">From many nations, one Union.<br>From one Union, many fires.</div>
+  <div>Charter of the European Hearth — Twelfth Draft</div>
+  <div style="margin-top:6px;">Indicative mapping. Real assignments would be made by the Independent Review Commission.</div>
+</footer>
+
+<script type="module" src="/src/main.js"></script>
+
+</body>
+</html>

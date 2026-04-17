@@ -4,60 +4,56 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a single-file interactive web application visualizing the "European Hearth Charter" — a conceptual reimagining of EU integration structured around voluntary "Hestias" (fires of integration). The entire application lives in `eu-hestias-map.html`.
+An interactive web application visualizing the "European Hearth Charter" — a conceptual reimagining of EU integration structured around voluntary "Hestias" (fires of integration). Built with vanilla JS, D3 (d3-geo only), and Vite.
 
 ## Running the App
 
-No build step or install required. Open `eu-hestias-map.html` directly in a modern browser, or serve it with any static file server:
-
 ```bash
-python3 -m http.server 8080
-# then open http://localhost:8080/eu-hestias-map.html
+npm install
+npm run dev        # Vite dev server with HMR
+npm run build      # production build → dist/
+npm run preview    # preview the production build
 ```
 
-Requires an internet connection to fetch D3 v7, TopoJSON v3, and world-atlas data from CDN.
+No CDN dependency at runtime — TopoJSON world-atlas data is vendored in `public/countries-110m.json`.
 
 ## Architecture
 
-The entire application is one HTML file (~890 lines) with three sections:
+```
+index.html          # HTML shell (header, button bar, SVG container, legend, detail panel, footer)
+src/
+  main.js           # Entry point: imports data, wires state, calls init
+  styles.css        # All CSS (theme via --ember/--hearth/--ash vars, responsive at 600/900px)
+  map.js            # drawMap(), lookupAlpha3() — D3 projection + SVG path rendering
+  view.js           # applyView(), renderLegend(), setupHestiaButtons()
+  detail.js         # selectCountry(), renderDetail(), renderNonFrameworkDetail()
+  fallback.js       # buildListFallback() — text fallback when map fails to load
+data/
+  countries.yaml    # 36 country records keyed by ISO alpha-3
+  hestias.yaml      # All 16 Hestias with key, label, sub, description
+  standings.yaml    # Standing definitions (member, inner-assoc, outer-assoc, strategic, non-eu)
+  iso-mappings.yaml # Numeric ISO → alpha-3 + name fallbacks (e.g. Kosovo)
+public/
+  countries-110m.json  # Vendored world-atlas TopoJSON
+```
 
-1. **Embedded CSS (lines 7–400)** — Theming via CSS variables (`--ember`, `--hearth`, `--ash` color palette), responsive breakpoints at 600px and 900px.
-
-2. **HTML structure (lines 401–473)** — Static shell: buttons for Hestia selection, SVG map container, legend, and country detail panel.
-
-3. **Embedded JavaScript (lines 474–891)** — Vanilla JS with D3 for rendering.
+YAML data files are imported at build time via `@rollup/plugin-yaml` (configured in `vite.config.js`).
 
 ### Data Model
 
-`COUNTRY_DATA` (lines 480–536) is the master registry — keyed by ISO alpha-3 code, each entry has:
+`data/countries.yaml` is the master registry — keyed by ISO alpha-3 code, each entry has:
 - `standing`: `"member"` | `"inner-assoc"` | `"outer-assoc"` | `"strategic"`
 - `note`: policy context string
-- 16 Hestia participation values: `1` (full), `0.5` (partial), `0` (none)
+- `hestias`: object with 16 participation values: `1` (full), `0.5` (partial), `0` (none)
 
-The 16 Hestias are: fiscal, krone, shield, gate, atlas, anchor, bench, green, forge, loom, library, spring, pharmacy, beacon, lattice, lyre.
-
-### Key Functions
-
-| Function | Purpose |
-|---|---|
-| `init()` | Entry point; fetches TopoJSON, initializes UI |
-| `drawMap(world)` | Creates SVG paths, wires click handlers |
-| `applyView()` | Re-colors countries for the active view (standings or a Hestia) |
-| `renderLegend()` | Updates legend for current view |
-| `selectCountry(alpha3)` | Updates selected state, calls `renderDetail` |
-| `renderDetail(alpha3)` | Renders country detail panel |
-| `buildListFallback()` | Text fallback if map CDN fails |
+The 16 Hestias are: fiscal, krone, shield, gate, atlas, anchor, bench, green, forge, loom, library, spring, pharmacy, beacon, lattice, lyre. All defined in `data/hestias.yaml`.
 
 ### State
 
-Three mutable state variables drive everything:
-- `currentView` — `"standings"` or a Hestia name (e.g. `"fiscal"`)
+A single `state` object in `src/main.js` holds:
+- `currentView` — `"standings"` or a Hestia key (e.g. `"fiscal"`)
 - `selectedCountry` — alpha-3 code of selected country, or `null`
-- `svgEl`, `projection`, `pathGen` — D3 map rendering handles
-
-### TopoJSON Mapping
-
-Countries arrive from TopoJSON with numeric ISO codes. `NUMERIC_TO_ALPHA3` (lines 603–614) converts these to alpha-3; `NAME_TO_ALPHA3` (lines 624–626) handles edge cases like Kosovo.
+- `svgEl` — reference to the SVG element
 
 ## Policy Documents
 
@@ -66,4 +62,4 @@ The `.md` files are governance/policy documents, not code docs:
 - `manifesto.md` — Political rationale
 - `commentary.md` — Interpretive commentary on the charter
 
-When editing `COUNTRY_DATA` or Hestia definitions, consult `charter.md` for canonical definitions.
+When editing country data or Hestia definitions, consult `charter.md` for canonical definitions.
