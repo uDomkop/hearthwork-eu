@@ -21,7 +21,9 @@ affirming that democratic voice is the dividend of shared obligation;
 
 determined to create a Union that is voluntary, adaptive, and constitutionally coherent;
 
-hereby establish this Charter as the foundation of a European Union composed of Members, Inner Union Associates, Outer Union Associates, Strategic Partners, and Hestias.
+hereby establish this Charter as the foundation of a European Union composed of Members, Inner Union Associates, Outer Union Associates, Strategic Partners, and Hestias — bound by a single principle:
+
+*No obligation without voice. No voice without contribution. No participation without exit.*
 
 ---
 
@@ -109,7 +111,6 @@ External Reach legislation: affected states across all standings hold consultati
 **IV.4 — Certification.** The Speaker certifies the voting roster per file before debate opens — publishing which states vote and which do not. Certification is challengeable through expedited CJEU review.
 
 **IV.5 — Double Majority Safeguard.** Hestia and Assembly Baseline decisions require both a majority of participating states by count *and* a majority of participating citizens by population. Neither majority alone suffices.
-
 ---
 
 # Title V — Standings
@@ -224,9 +225,10 @@ Where a Hestia rule in force is found to conflict with the Assembly Baseline —
 2. **Co-decision** — qualified majority approval by the Assembly
 3. **Override** — if the Assembly rejects, Parliament may override by three-quarters supermajority, provided that a concurrent majority of national parliaments of participating states (counted by both state count and aggregate population) also approve the promotion. This double legitimacy requirement ensures that no Hestia rule is elevated to Assembly Baseline without both supranational and national democratic consent.
 4. **Transition** — three to seven years for non-participating Members to align
-5. **The Choice** — non-aligned Members may step back to Inner Union Associate status
+5. **Derogation Membership** — during and beyond the transition window, a non-aligned Member may elect Derogation Membership on the promoted file: a time-limited status in which the state retains full Assembly, Parliament, and citizenship rights but is not bound by the promoted rule and carries no implementation obligations with respect to it. Derogation Membership runs for an initial term of up to ten years, renewable once by double majority of the Assembly on recommendation of the Independent Review Commission. Derogations are file-specific; a Member may hold derogations on several files concurrently without prejudice to standing. A Derogation Member does not vote on subsequent amendments to the derogated file, mirroring the voice-follows-obligation principle, but retains its vote on all other matters.
+6. **The Choice** — at the end of the final Derogation term, a Member must either accept the promoted rule or step back to Inner Union Associate status. This is the cliff, deferred but not erased.
 
-The cost is named honestly: a Member that refuses pays in democratic voice — losing its Assembly vote and Parliament representation while retaining constitutional partnership through IUA status. Constrained by CJEU review for Inviolable Floor compatibility.
+The cost is named honestly: a Member that refuses permanently pays in democratic voice — losing its Assembly vote and Parliament representation on the domain while retaining constitutional partnership through IUA status. The Derogation tier exists to soften the cliff into a staircase: states are given time to adjust, to negotiate, to build domestic consent, without being forced to choose between immediate compliance and immediate demotion. What they are not given is indefinite exemption on Member terms. Constrained by CJEU review for Inviolable Floor compatibility.
 
 ## VI.10 — Observer Seats
 
@@ -315,9 +317,10 @@ In extreme crises threatening the security, constitutional order, or fundamental
 - **Declaration** requires four-fifths supermajority of both Parliament and Assembly. Either body may end it unilaterally by simple majority.
 - **Scope** limited to specific enumerated powers in the declaration. No general centralisation.
 - **Inviolable Floor** cannot be suspended.
-- **Duration:** 90 days, renewable once. 180-day absolute maximum.
-- **Judicial review** by CJEU throughout, expedited.
-- **Post-crisis ratification** mandatory — every action individually ratified or null within six months.
+- **Duration:** 90 days, renewable once by the declaring thresholds. 180-day ordinary maximum.
+- **Extraordinary Extension.** Beyond 180 days, Emergency Mode may be continued only through a Constitutional Convention called under Title XII and convened within thirty days. The Convention — sitting with full Member, IUA, and citizen-delegate composition — may authorise successive 180-day extensions by four-fifths supermajority of its own membership, subject to CJEU concurrence that the underlying crisis persists. Each extension is a fresh decision; none is automatic. Extension authority is itself capped: no Emergency Mode shall run beyond three years in total, after which the Charter's ordinary procedures resume regardless of circumstance.
+- **Judicial review** by CJEU throughout, expedited. Review authority is heightened, not reduced, during any Extraordinary Extension.
+- **Post-crisis ratification** mandatory — every action individually ratified or null within six months of the end of Emergency Mode.
 
 ---
 
