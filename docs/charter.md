@@ -21,7 +21,7 @@ affirming that democratic voice is the dividend of shared obligation;
 
 determined to create a Union that is voluntary, adaptive, and constitutionally coherent;
 
-hereby establish this Charter as the foundation of a European Union composed of Members, Companions, Compacts, Strategic Partners, and Hestias — bound by a single principle:
+hereby establish this Charter as the foundation of a European Union composed of Members, Companions, Accord States, Strategic Partners, and Hestias — bound by a single principle:
 
 *No obligation without voice. No voice without contribution. No participation without exit.*
 
@@ -64,7 +64,7 @@ hereby establish this Charter as the foundation of a European Union composed of 
 | **Participation** | Legal, fiscal, and regulatory involvement |
 | **Fiscal Key** | Financial subscription required for Hestia voting rights |
 | **Modular Parliament** | The European Parliament configured per legislative file |
-| **Hestia Council** | The governing body of a Hestia. By default composed of participating states' ministers, but the founding compact may adopt an alternative structure under VI.2 |
+| **Hestia Council** | The governing body of a Hestia. By default composed of participating states' ministers, but the founding pact may adopt an alternative structure under VI.2 |
 | **Hestia Capital** | The permanent seat of a Hestia Council, designated by its founding members |
 
 ---
@@ -77,9 +77,9 @@ hereby establish this Charter as the foundation of a European Union composed of 
 
 **III.3 — Companion Citizens.** Direct Charter rights including free movement, petition, and direct election of Members of the European Parliament on the same cycle and apportionment formula as Members. Companion MEPs vote in the Modular Parliament on legislation in Hestias their state has joined. They do not vote on Assembly Baseline legislation or on External Reach Ratification.
 
-**III.3A — Compact Representation.** Compact citizens do not directly elect Members of the European Parliament. Compact states are represented in the Hestias they join through their ministers on the Hestia Council. Compacts have no vote in the Modular Parliament or in the Assembly. Where the Modular Parliament sits with the roster of a Hestia the Compact has joined, the Compact's delegation may attend, speak on relevant files, and submit written interventions, but may not vote. Observer rights in non-joined Hestias follow VI.10.
+**III.3A — Accord State Representation.** Accord State citizens do not directly elect Members of the European Parliament. Accord States are represented in the Hestias they join through their ministers on the Hestia Council. Accord States have no vote in the Modular Parliament or in the Assembly. Where the Modular Parliament sits with the roster of a Hestia the Accord State has joined, the Accord State's delegation may attend, speak on relevant files, and submit written interventions, but may not vote. Observer rights in non-joined Hestias follow VI.10.
 
-**III.4 — Strategic Partner Citizens.** Rights defined through bilateral compacts, with reciprocity governing Strategic Partner relationships. No direct representation in Union institutions; voice runs through observer seats (VI.10) and consultation via the Standing Review Body (VII.4). Strategic Partners do not hold a suspensive veto.
+**III.4 — Strategic Partner Citizens.** Rights defined through bilateral pacts, with reciprocity governing Strategic Partner relationships. No direct representation in Union institutions; voice runs through observer seats (VI.10) and consultation via the Standing Review Body (VII.4). Strategic Partners do not hold a suspensive veto.
 
 **III.5 — Citizenship Continuity.** Citizens of demoted Member states retain Union citizenship for five years from the date of demotion.
 
@@ -101,12 +101,12 @@ Voice follows obligation: the question is not *how much* a state votes but *whet
 
 | Context | Who votes | Who does not |
 |---|---|---|
-| Assembly Baseline (Parliament) | Members' MEPs | Companions, Compacts, Strategic Partners |
-| External Reach Ratification (Parliament, VII.2A) | Members' and Companions' MEPs | Compacts, Strategic Partners |
-| Hestia file — Modular Parliament | MEPs of Members and Companions participating in the Hestia | MEPs of non-participants; Compacts (no Parliamentary vote at any roster); Strategic Partners |
-| Hestia Council | Ministers of participating states (Members, Companions, and Compacts) — one vote each, contingent on Fiscal Key payment at the applicable rate | Non-participants of any standing; Strategic Partners (observer only) |
+| Assembly Baseline (Parliament) | Members' MEPs | Companions, Accord States, Strategic Partners |
+| External Reach Ratification (Parliament, VII.2A) | Members' and Companions' MEPs | Accord States, Strategic Partners |
+| Hestia file — Modular Parliament | MEPs of Members and Companions participating in the Hestia | MEPs of non-participants; Accord States (no Parliamentary vote at any roster); Strategic Partners |
+| Hestia Council | Ministers of participating states (Members, Companions, and Accord States) — one vote each, contingent on Fiscal Key payment at the applicable rate | Non-participants of any standing; Strategic Partners (observer only) |
 
-External Reach legislation: affected states across all standings hold consultation rights under VII.4, but do not vote on the file itself. Only Companions hold the suspensive veto under VII.5; Compacts and Strategic Partners do not. Observer rights in non-joined Hestias are governed by VI.10 and confer no vote.
+External Reach legislation: affected states across all standings hold consultation rights under VII.4, but do not vote on the file itself. Only Companions hold the suspensive veto under VII.5; Accord States and Strategic Partners do not. Observer rights in non-joined Hestias are governed by VI.10 and confer no vote.
 
 **IV.4 — Certification.** The Speaker certifies the voting roster per file before debate opens — publishing which states vote and which do not. Certification is challengeable through expedited CJEU review.
 
@@ -121,16 +121,16 @@ External Reach legislation: affected states across all standings hold consultati
 |---|---|
 | **Member** | Full rights and obligations as constitutive states: Assembly Baseline vote, direct election of MEPs, Hestia Council and Modular Parliament vote in every joined Hestia, full Fiscal Key |
 | **Companion** | Constitutional integration with free movement. Direct election of MEPs on the same cycle and apportionment formula as Members. Hestia Council and Modular Parliament vote in every joined Hestia via full Fiscal Key. No Assembly Baseline vote and no vote on External Reach Ratification |
-| **Compact** | Treaty-based alignment and sectoral participation. Hestia Council vote in every joined Hestia via a discounted Fiscal Key (discount rate set by each Hestia's founding compact). No direct MEP elections, no Modular Parliament vote, no Assembly vote. Observer rights under VI.10 |
+| **Accord State** | Treaty-based alignment and sectoral participation. Hestia Council vote in every joined Hestia via a discounted Fiscal Key (discount rate set by each Hestia's founding pact). No direct MEP elections, no Modular Parliament vote, no Assembly vote. Observer rights under VI.10 |
 | **Strategic Partner** | Reciprocal cooperation between sovereign peers. No direct representation in Union institutions; voice runs through observer seats (VI.10) and consultation via the Standing Review Body (VII.4). No suspensive veto |
 
-Across standings, deeper integration adds one layer of voice: a Strategic Partner gains a Hestia Council vote on becoming a Compact; a Compact gains direct MEP elections and a Modular Parliament vote on becoming a Companion; a Companion gains the Assembly Baseline vote on becoming a Member. Council represents states; Parliament represents populations; the Assembly represents the constitutive Union. No standing skips a layer.
+Across standings, deeper integration adds one layer of voice: a Strategic Partner gains a Hestia Council vote on becoming an Accord State; an Accord State gains direct MEP elections and a Modular Parliament vote on becoming a Companion; a Companion gains the Assembly Baseline vote on becoming a Member. Council represents states; Parliament represents populations; the Assembly represents the constitutive Union. No standing skips a layer.
 
-**V.2 — Standing Compacts.** Each non-Member standing is governed by a bilateral compact reviewed at appropriate intervals. Compacts require approval by the European Parliament and the partner state's democratic institutions.
+**V.2 — Standing Pacts.** Each non-Member standing is governed by a bilateral pact reviewed at appropriate intervals. Pacts require approval by the European Parliament and the partner state's democratic institutions.
 
-1. **Compact Council voice.** A Compact state's Hestia Council vote is contingent on Fiscal Key payment at the discounted rate set by that Hestia's founding compact. The Light-Out Clause (VI.4 ¶3) and Force Majeure protections (VI.4 ¶4) apply on the same basis as to Members and Companions.
-2. **Companion election transition.** A state newly acceding to Companion standing is granted one European Parliament election cycle (up to five years) from compact entry into force to organise direct MEP elections. During the transition, the state is represented in the Modular Parliament by delegates appointed by its national parliament, apportioned under the same formula that will govern its direct elections. Transitional delegates vote only in Hestias the state has joined; they do not vote on Assembly Baseline legislation or on External Reach Ratification.
-3. **Asymmetry acknowledged.** Compact states implement Hestia legislation through Council rules on which they vote, but do not vote on the Parliamentary passage of that legislation. This is a known deficit in popular representation, accepted as the price of sectoral participation without fuller integration. A state seeking parliamentary voice on the rules it implements must accede to Companion standing.
+1. **Accord State Council voice.** An Accord State's Hestia Council vote is contingent on Fiscal Key payment at the discounted rate set by that Hestia's founding pact. The Light-Out Clause (VI.4 ¶3) and Force Majeure protections (VI.4 ¶4) apply on the same basis as to Members and Companions.
+2. **Companion election transition.** A state newly acceding to Companion standing is granted one European Parliament election cycle (up to five years) from pact entry into force to organise direct MEP elections. During the transition, the state is represented in the Modular Parliament by delegates appointed by its national parliament, apportioned under the same formula that will govern its direct elections. Transitional delegates vote only in Hestias the state has joined; they do not vote on Assembly Baseline legislation or on External Reach Ratification.
+3. **Asymmetry acknowledged.** Accord States implement Hestia legislation through Council rules on which they vote, but do not vote on the Parliamentary passage of that legislation. This is a known deficit in popular representation, accepted as the price of sectoral participation without fuller integration. A state seeking parliamentary voice on the rules it implements must accede to Companion standing.
 
 ---
 
@@ -141,8 +141,8 @@ Across standings, deeper integration adds one layer of voice: a Strategic Partne
 Hestias are open across the Union:
 
 - **Members and Companions** may fully participate as founding or joining members.
-- **Compacts** may join through compact amendment, requiring Parliament and Assembly approval.
-- **Strategic Partners** must first transition to Compact standing under VIII.1.
+- **Accord States** may join through pact amendment, requiring Parliament and Assembly approval.
+- **Strategic Partners** must first transition to Accord State standing under VIII.1.
 
 No state may be excluded from joining a Hestia for political reasons. Criteria must be objective, published, and CJEU-reviewable.
 
@@ -150,25 +150,25 @@ No state may be excluded from joining a Hestia for political reasons. Criteria m
 
 Each Hestia is governed by a Hestia Council — a domain-specific executive body seated in a permanent Hestia Capital.
 
-**Composition — Default Model.** Unless the founding compact specifies otherwise, each participating state appoints its relevant minister to the Council as of right. Beyond this ministerial core, the compact may provide for technical delegates, expert advisers, or citizen representatives. Composition beyond the ministerial core is determined by the founding members and may be amended by Council supermajority.
+**Composition — Default Model.** Unless the founding pact specifies otherwise, each participating state appoints its relevant minister to the Council as of right. Beyond this ministerial core, the pact may provide for technical delegates, expert advisers, or citizen representatives. Composition beyond the ministerial core is determined by the founding members and may be amended by Council supermajority.
 
-**Composition — Alternative Models.** The founding compact of a Hestia may depart from the ministerial default where the domain warrants a different structure — for example, a board of independent experts for a Hestia governing technical standards, a directly-elected assembly, a sortition-selected citizen body for a rights-adjacent domain, or a hybrid combining ministerial and non-ministerial seats. Any alternative model must satisfy the following invariants:
+**Composition — Alternative Models.** The founding pact of a Hestia may depart from the ministerial default where the domain warrants a different structure — for example, a board of independent experts for a Hestia governing technical standards, a directly-elected assembly, a sortition-selected citizen body for a rights-adjacent domain, or a hybrid combining ministerial and non-ministerial seats. Any alternative model must satisfy the following invariants:
 
 1. **State representation.** Every participating state holds at least one seat or equivalent vote, weighted consistent with IV.5's double-majority principle.
 2. **Democratic accountability.** Non-ministerial members must be appointed or elected through procedures that are public, rule-governed, and reviewable — not assembled by Hestia insiders.
 3. **Fiscal Key linkage.** Voting rights in the Council, whatever its composition, remain contingent on Fiscal Key payment under VI.4 at the applicable rate. No body may be structured so that voice is detached from subscription.
 4. **Parliamentary accountability.** The body remains answerable to the Modular Parliament under the terms of this Article, including censure.
-5. **Transparency.** The alternative structure is set out in full in the founding compact, published in the Union Register, and subject to CJEU review for conformity with these invariants.
+5. **Transparency.** The alternative structure is set out in full in the founding pact, published in the Union Register, and subject to CJEU review for conformity with these invariants.
 
-An alternative model may be adopted only at founding, or by unanimous consent of all current participants through a compact amendment ratified by the Modular Parliament.
+An alternative model may be adopted only at founding, or by unanimous consent of all current participants through a pact amendment ratified by the Modular Parliament.
 
 **Presidency.** The Hestia Council is chaired on a rotating basis by participating states, in order of accession to the Hestia, for terms of no more than twelve months. The Presidency sets the Council agenda, chairs sessions, and mediates procedural disputes. No state may hold the Presidency of the same Hestia for consecutive terms.
 
 **Role.** The Hestia Council executes legislation passed by the Modular Parliament within its domain. It manages the Hestia budget, oversees compliance with Hestia obligations, and issues implementing regulations within the bounds of Parliament-passed legislation.
 
-**Legislative Initiative.** The Hestia Council may propose legislation to the Modular Parliament within its compact-defined domain. Every proposal must be reviewed by the Independent Legislative Classification Body (VII.1) before debate opens. If the proposal touches an Assembly-Locked Domain (I.10), it is returned to the Council as ultra vires. Parliament retains full power to amend, adopt, or reject any Council proposal. A Council proposal that is rejected may not be resubmitted in substantially identical form within twelve months.
+**Legislative Initiative.** The Hestia Council may propose legislation to the Modular Parliament within its pact-defined domain. Every proposal must be reviewed by the Independent Legislative Classification Body (VII.1) before debate opens. If the proposal touches an Assembly-Locked Domain (I.10), it is returned to the Council as ultra vires. Parliament retains full power to amend, adopt, or reject any Council proposal. A Council proposal that is rejected may not be resubmitted in substantially identical form within twelve months.
 
-**The Hestia Capital.** The founding members designate a Hestia Capital at the time of establishment. The Capital hosts the Council's primary sessions and administrative functions. The Capital ordinarily takes the form of a fixed city, but where the character of the Hestia warrants, the founding compact may instead designate a vessel, a rotating seat among named cities, or another arrangement that reflects the Hestia's domain. The form of the Capital, once established, may not be altered except by unanimous consent of all current participants.
+**The Hestia Capital.** The founding members designate a Hestia Capital at the time of establishment. The Capital hosts the Council's primary sessions and administrative functions. The Capital ordinarily takes the form of a fixed city, but where the character of the Hestia warrants, the founding pact may instead designate a vessel, a rotating seat among named cities, or another arrangement that reflects the Hestia's domain. The form of the Capital, once established, may not be altered except by unanimous consent of all current participants.
 
 **Accountability.** The Hestia Council reports to the Modular Parliament configuration for its domain. Parliament may censure the Council by majority vote of participants. Individual ministers remain accountable to their own national parliaments under their national constitutional arrangements.
 
@@ -186,19 +186,19 @@ Voting rights in any Hestia require Fiscal Key payment.
 
 1. **No subscription, no vote.**
 2. **Calculation** based on GDP and domain exposure, certified by the Independent Review Commission.
-   - **Compact discount.** Compacts pay a discounted Fiscal Key reflecting their narrower standing: Council vote only, no Modular Parliament vote, no direct MEP elections. The discount rate is fixed in each Hestia's founding compact and applies uniformly to all Compact participants in that Hestia. The rate may be amended only by Hestia Council supermajority with the concurrence of the affected Compact state or states. The discounted rate may not fall so low as to amount to cost-free participation; a published floor, set by the Independent Review Commission, preserves the principle that voice is bought with contribution.
+   - **Accord State discount.** Accord States pay a discounted Fiscal Key reflecting their narrower standing: Council vote only, no Modular Parliament vote, no direct MEP elections. The discount rate is fixed in each Hestia's founding pact and applies uniformly to all Accord State participants in that Hestia. The rate may be amended only by Hestia Council supermajority with the concurrence of the affected Accord State or States. The discounted rate may not fall so low as to amount to cost-free participation; a published floor, set by the Independent Review Commission, preserves the principle that voice is bought with contribution.
 3. **Light-Out Clause** — non-payment suspends voting rights after a sixty-day cure period. Sustained non-payment triggers withdrawal.
 4. **Force Majeure** — a state experiencing a documented constitutional crisis, natural disaster, or acute economic emergency (as certified by the Independent Review Commission) may request suspension of the Light-Out Clause for up to twelve months. The request must be supported by evidence and is subject to CJEU expedited review. During the suspension, the state retains consultation rights but not voting rights. The Force Majeure suspension may be renewed once for a further six months; beyond that, the Light-Out Clause resumes automatically.
 5. **Ring-Fencing** — each Hestia budget is isolated. Suspension in one does not affect others.
 6. **Observer Carve-Out** — observer status under VI.10 is distinct from the Fiscal Key, requires no subscription, and confers no voting rights. Presence is not power; the Fiscal Key remains the sole gateway to a vote.
 
-**VI.5 — Anti-Dominance Rule.** The double majority of IV.5 is the structural safeguard against dominance: no coalition can carry a Hestia decision without both a majority of states and a majority of the participating population. Hestia compacts may set higher thresholds for specified categories of decision, but may not lower them.
+**VI.5 — Anti-Dominance Rule.** The double majority of IV.5 is the structural safeguard against dominance: no coalition can carry a Hestia decision without both a majority of states and a majority of the participating population. Hestia pacts may set higher thresholds for specified categories of decision, but may not lower them.
 
 ## VI.6 — Joining, Stepping Back, Removal, and Dissolution
 
 - **Joining:** Any state satisfying published criteria may apply. Assessed by the Independent Review Commission.
 - **Withdrawal:** Formal notification plus transition period (12 months minimum, 5 years maximum for currency/defence). No penalty.
-- **Removal:** 75% supermajority of fellow participants, on grounds of systematic Compact violation, with independent assessment, formal hearing, and full CJEU appeal rights.
+- **Removal:** 75% supermajority of fellow participants, on grounds of systematic Pact violation, with independent assessment, formal hearing, and full CJEU appeal rights.
 - **Dissolution:** A Hestia is automatically dissolved when its participating states fall below either three in number or five percent of the Union's total population, whichever threshold is breached first. The Independent Review Commission certifies the threshold breach and initiates an orderly wind-down period of no more than twelve months, during which existing obligations are honoured and legislation in force is transitioned to the Assembly Baseline or repealed. Remaining participants retain all rights under their standing.
 
 ## VI.7 — Conflict Resolution Between Hestias
@@ -232,7 +232,7 @@ The cost is named honestly: a Member that refuses permanently pays in democratic
 
 ## VI.10 — Observer Seats
 
-1. **Eligibility.** Any Member, Companion, or Compact not currently a participant in a Hestia may take an observer seat in that Hestia. Strategic Partners with demonstrated subject-matter interest may take an observer seat upon application to the Hestia Council. The Council may not refuse an eligible applicant without published reasons reviewable by the Independent Review Commission.
+1. **Eligibility.** Any Member, Companion, or Accord State not currently a participant in a Hestia may take an observer seat in that Hestia. Strategic Partners with demonstrated subject-matter interest may take an observer seat upon application to the Hestia Council. The Council may not refuse an eligible applicant without published reasons reviewable by the Independent Review Commission.
 2. **Rights of observers.** Observers may attend open sessions of the Hestia Council and of the Modular Parliament when sitting with the Hestia's roster. They receive all non-confidential documents on the same timeline as participants. They may speak at agenda points relevant to their state, submit written interventions, and propose amendments for participants' consideration. They may not vote, second motions, or invoke procedural motions reserved to participants.
 3. **Confidentiality.** Sessions classified by the Council as confidential under criteria published in the Union Register are closed to observers. Declassified summaries shall be provided to observers within thirty days of the session.
 4. **Cost.** Observer status carries an administrative fee set by the Hestia Council, calibrated to cover its administrative cost and not exceeding it. The Fiscal Key (VI.4) is unaffected; observer status confers no voting rights and creates no Fiscal Key obligation.
@@ -261,7 +261,7 @@ The cost is named honestly: a Member that refuses permanently pays in democratic
 
 1. **Equivalence.** A non-participating state may petition for a declaration that its domestic rules are equivalent to the Hestia's rule for the purposes of market access and conformity assessment. Where equivalence is found, compliance is established through the non-participant's own regulator, and the Hestia shall not require duplicate certification. Equivalence declarations are reviewable at fixed intervals and may be withdrawn for cause. This is the remedy of first resort.
 
-2. **Discounted Accession.** A non-participating state demonstrating substantial regulatory-gravity exposure may, during a one-year window following the rule's entry into force, join the Hestia at a Fiscal Key reduced in proportion to the documented de facto compliance already borne. The discount tapers to the standard rate over five years. This remedy converts asymmetric compliance into participation rather than payment, and is open to Members, Companions, and Compacts alike.
+2. **Discounted Accession.** A non-participating state demonstrating substantial regulatory-gravity exposure may, during a one-year window following the rule's entry into force, join the Hestia at a Fiscal Key reduced in proportion to the documented de facto compliance already borne. The discount tapers to the standard rate over five years. This remedy converts asymmetric compliance into participation rather than payment, and is open to Members, Companions, and Accord States alike.
 
 3. **Narrow Hardship Facility.** A state that is constitutionally barred from joining the Hestia — including by neutrality provision, Assembly-Locked Domain under I.10, or equivalent durable legal impediment — may apply to a Hardship Facility, funded from the legislating Hestia's own Fiscal Key revenues, for time-limited transition assistance. Strategic Partners may apply on the same basis. Members and Associates who are legally eligible to join the Hestia are not eligible for the Facility; their remedy is equivalence or accession. The Facility sunsets ten years after the rule's entry into force. The Hestia carries the cost of its own spillover: it cannot create gravity and disclaim its consequences.
 
@@ -269,11 +269,11 @@ Beyond the narrow Hardship Facility of ¶3, no compensation flows from participa
 
 **VII.4 — The Standing Review Body.** Handles consultation on External Reach legislation and administers the suspensive veto held by Companions under VII.5. Affected states across all standings hold consultation rights, additive to any observer rights under VI.10 or remedies under VII.3. Consultation confers voice, not a veto; only Companions may trigger a pause.
 
-**VII.5 — The Suspensive Veto.** During the Assembly ratification window under VII.2A, affected Companions may, through the Standing Review Body, pause ratification proceedings for review (six months, or thirty days for trade-affecting matters). The Standing Review Body may propose amendments to the Hestia, recommend exemptions or transition periods, or recommend remedies under VII.3. The pause runs concurrently with, and extends as needed, the six-month limit in VII.2A. After review, the Assembly may proceed with ratification with or without modification of the underlying rule. Compacts and Strategic Partners do not hold a suspensive veto; their voice on External Reach files runs through consultation under VII.4 and observer rights under VI.10.
+**VII.5 — The Suspensive Veto.** During the Assembly ratification window under VII.2A, affected Companions may, through the Standing Review Body, pause ratification proceedings for review (six months, or thirty days for trade-affecting matters). The Standing Review Body may propose amendments to the Hestia, recommend exemptions or transition periods, or recommend remedies under VII.3. The pause runs concurrently with, and extends as needed, the six-month limit in VII.2A. After review, the Assembly may proceed with ratification with or without modification of the underlying rule. Accord States and Strategic Partners do not hold a suspensive veto; their voice on External Reach files runs through consultation under VII.4 and observer rights under VI.10.
 
 **VII.6 — Escalation.** Unresolved disputes escalate to a Joint Review Panel, then to a CJEU advisory opinion.
 
-**VII.7 — External Negotiation Mandate.** The Assembly may, by qualified majority, authorise a Hestia Council to negotiate with third countries or international organisations within that Hestia's domain. The authorising mandate must define the negotiating scope, red lines, and reporting obligations. The Hestia Council negotiates on behalf of all participating states and reports progress to the Modular Parliament. Ratification of a negotiated agreement requires co-decision: qualified majority of the Hestia's participating states and qualified majority of the Assembly. Where the agreement has External Reach effects, the Standing Review Body conducts a parallel consultation under VII.4, and affected Companions retain the suspensive veto under VII.5. Compacts and Strategic Partners hold consultation and observer rights throughout the negotiation process but no veto. No agreement may override Assembly-Locked Domains (I.10) or the Inviolable Floor.
+**VII.7 — External Negotiation Mandate.** The Assembly may, by qualified majority, authorise a Hestia Council to negotiate with third countries or international organisations within that Hestia's domain. The authorising mandate must define the negotiating scope, red lines, and reporting obligations. The Hestia Council negotiates on behalf of all participating states and reports progress to the Modular Parliament. Ratification of a negotiated agreement requires co-decision: qualified majority of the Hestia's participating states and qualified majority of the Assembly. Where the agreement has External Reach effects, the Standing Review Body conducts a parallel consultation under VII.4, and affected Companions retain the suspensive veto under VII.5. Accord States and Strategic Partners hold consultation and observer rights throughout the negotiation process but no veto. No agreement may override Assembly-Locked Domains (I.10) or the Inviolable Floor.
 
 ---
 
@@ -283,7 +283,7 @@ Beyond the narrow Hardship Facility of ¶3, no compensation flows from participa
 
 **VIII.2 — Right to Step Back.** Any state may voluntarily reduce its integration through defined procedures, with appropriate transition periods and no penalty.
 
-**VIII.3 — Integration Gravity Review.** Companions whose Hestia participation crosses a Convention-defined threshold trigger an automatic compact review. The review may recommend deepening or invite the state to consider Membership. No state may be transitioned against its will.
+**VIII.3 — Integration Gravity Review.** Companions whose Hestia participation crosses a Convention-defined threshold trigger an automatic pact review. The review may recommend deepening or invite the state to consider Membership. No state may be transitioned against its will.
 
 **VIII.4 — Demotion.** A Member may be moved to Companion status by 75% Assembly supermajority (population and state count), Parliament approval, six-month warning, formal hearing, and full CJEU appeal rights. Reviewed automatically every two years. Citizenship continuity under III.5 applies.
 
@@ -365,7 +365,7 @@ Members serve non-renewable eight-year terms, staggered so that three seats are 
 **Methodology.** The ILCB classifies legislation using a published, codified methodology that applies the following sequential tests:
 
 1. **Domain Test** — does the subject matter fall within an Assembly-Locked Domain (I.10)? If yes, the legislation is classified as Assembly Baseline regardless of its origin.
-2. **Compact Scope Test** — does the subject matter fall within the compact-defined domain of the proposing Hestia? If no, the proposal is returned as ultra vires.
+2. **Pact Scope Test** — does the subject matter fall within the pact-defined domain of the proposing Hestia? If no, the proposal is returned as ultra vires.
 3. **Regulatory Gravity Test** — applying the indicators of VII.2, does the proposed legislation create de facto compliance pressure beyond participating states? If yes, the legislation is classified as External Reach and the procedural safeguards of VII.4–VII.6 apply.
 4. **Overlap Test** — does the subject matter intersect with another Hestia's domain? If yes, the ILCB identifies the overlap and, if necessary, initiates the conflict resolution procedure of VI.7.
 

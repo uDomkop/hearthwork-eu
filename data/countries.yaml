@@ -1,5 +1,5 @@
 # Country records keyed by ISO alpha-3.
-# Standings: member | companion | compact | strategic
+# Standings: member | companion | compact (= Accord State) | strategic
 # Hestia participation values: 1 (full) | 0 (none)
 # All 16 Hestias must be present for each country; missing keys are treated as 0.
 #
@@ -497,7 +497,7 @@ XKX:
   population: 1.8
   aspirant: companion
   note: >-
-    Five Members withhold recognition. Under the Charter, progression to Companion via bilateral compact sidesteps the Member-vote question
+    Five Members withhold recognition. Under the Charter, progression to Companion via bilateral pact sidesteps the Member-vote question
     that blocks current accession.
   hestias: { fiscal: 0, shield: 0, gate: 0, loom: 1, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:

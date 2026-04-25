@@ -7,7 +7,7 @@ companion:
   className: standing-inner
   color: var(--companion)
 compact:
-  label: Compact
+  label: Accord State
   className: standing-outer
   color: var(--compact)
 strategic:

@@ -21,12 +21,12 @@ A Hestia is a voluntary domain of deeper integration. The Charter recognises six
 
 A Hestia has four constituent parts:
 
-1. **A compact** — the founding agreement that defines its scope, membership, and decision rules.
+1. **A pact** — the founding agreement that defines its scope, membership, and decision rules.
 2. **A Council** — the executive body of participating states' ministers, seated in a permanent capital city (VI.2).
 3. **A Citizen Panel** — sortition-selected residents who review every legislative proposal before it goes to Parliament (VI.3).
 4. **A budget** — funded by Fiscal Key contributions from each participating state, ring-fenced from other Hestia budgets (VI.4).
 
-A state joins a Hestia by paying its Fiscal Key. It leaves by giving notice. It can be removed only for sustained, certified breach of the compact, with full appeal rights. **No Hestia can demand more of a state than the state has chosen to give.**
+A state joins a Hestia by paying its Fiscal Key. It leaves by giving notice. It can be removed only for sustained, certified breach of the pact, with full appeal rights. **No Hestia can demand more of a state than the state has chosen to give.**
 
 A Hestia is not a sub-EU. It does not legislate independently — it proposes, the Modular Parliament disposes. The Council executes; Parliament passes the law.
 
@@ -42,7 +42,7 @@ Integration without an address has no face. Citizens who cannot point to where a
 
 VI.2 ordinarily expects a fixed city, and most Hestias choose one. Frankfurt for the Fiscal Hearth. The Hague for the Bench. Tallinn for the Loom. The reasons are usually obvious: existing institutional gravity, geographic centrality, historical association with the domain.
 
-But the Charter recognises that some Hestias resist a fixed-city seat without losing the principle the Capital is meant to serve. The founding compact may instead designate:
+But the Charter recognises that some Hestias resist a fixed-city seat without losing the principle the Capital is meant to serve. The founding pact may instead designate:
 
 - **A vessel** — for the Anchor (maritime cooperation), whose Capital is the flagship *Stella Maris*. A maritime Hestia anchored to a single coastal city would privilege that coast over every other; a flagship circulating between participating ports expresses the truth that the sea belongs to no one capital.
 - **A rotating seat** — for the Lyre (cultural heritage), whose Capital travels each year to that year's European Capital of Culture. Anchoring culture to a single city would be a category error: European heritage is plural, and the Hestia that protects it should be too.
@@ -89,7 +89,7 @@ The cost of equal voting is admitted: it overstates the contribution of small pa
 
 The **Double Majority Safeguard** (IV.5) preserves what weighted voting was reaching for: every decision needs both a majority of participating *states* and a majority of participating *citizens*. A small bloc of large states cannot steamroll the rest; a large bloc of small states cannot bind a large population without its consent. Both counts are still binary — every state once, every citizen once — just two ways of counting the same yes-or-no participation.
 
-Spillover concerns are handled through the External Reach machinery (Title VII), which now layers four mechanisms beneath the Hestia's own vote. First, **Assembly Ratification** (VII.2A): a Hestia rule with regulatory gravity does not enter force on the Hestia's vote alone — the Assembly of Member States must ratify its reach by double majority, or strip the reach so the rule binds participants only. Second, **Observer Seats** (VI.10): any Member, Companion, or Compact may sit in the Hestia Council and in the Modular Parliament with the Hestia's roster — hearing deliberations directly, speaking on relevant agenda points, proposing amendments — without paying the Fiscal Key and without the right to vote. Third, the **Suspensive Veto** (VII.5), scoped narrowly to affected Companions — states deeply integrated enough to be bound by constitutional rights and free movement, but without an Assembly vote — to pause ratification for review. Compacts and Strategic Partners do not hold this veto; their voice runs through consultation (VII.4) and observer seats (VI.10). Fourth, **structured remedies** (VII.3) — equivalence, discounted accession, or, for the constitutionally-barred, a narrow Hardship Facility funded by the Hestia itself.
+Spillover concerns are handled through the External Reach machinery (Title VII), which now layers four mechanisms beneath the Hestia's own vote. First, **Assembly Ratification** (VII.2A): a Hestia rule with regulatory gravity does not enter force on the Hestia's vote alone — the Assembly of Member States must ratify its reach by double majority, or strip the reach so the rule binds participants only. Second, **Observer Seats** (VI.10): any Member, Companion, or Accord State may sit in the Hestia Council and in the Modular Parliament with the Hestia's roster — hearing deliberations directly, speaking on relevant agenda points, proposing amendments — without paying the Fiscal Key and without the right to vote. Third, the **Suspensive Veto** (VII.5), scoped narrowly to affected Companions — states deeply integrated enough to be bound by constitutional rights and free movement, but without an Assembly vote — to pause ratification for review. Accord States and Strategic Partners do not hold this veto; their voice runs through consultation (VII.4) and observer seats (VI.10). Fourth, **structured remedies** (VII.3) — equivalence, discounted accession, or, for the constitutionally-barred, a narrow Hardship Facility funded by the Hestia itself.
 
 Non-participants are no longer merely heard. They are *present* in the room as observers, *voting on reach* where they are Members, *pausing ratification* where they are not, and *offered concrete paths through gravity* where the rule still bites them.
 
@@ -198,7 +198,7 @@ Either body can end Emergency Mode unilaterally by simple majority at any time. 
 
 ## §7 — The Triple Key and the Watchdogs
 
-The Charter establishes four independent bodies (XI.2): the Independent Review Commission, the Legislative Classification Body (XI.3), the Rule of Law Monitoring Body, and the Standing Review Body. Each makes politically explosive decisions — whether a state is in rule-of-law breach, whether a rule has External Reach, whether a Hestia compact is being honoured.
+The Charter establishes four independent bodies (XI.2): the Independent Review Commission, the Legislative Classification Body (XI.3), the Rule of Law Monitoring Body, and the Standing Review Body. Each makes politically explosive decisions — whether a state is in rule-of-law breach, whether a rule has External Reach, whether a Hestia pact is being honoured.
 
 The Charter cannot pretend these are merely technical decisions. The **Triple Key** system gives them enough independence to make hard calls and enough accountability to remain legitimate.
 
