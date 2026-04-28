@@ -23,7 +23,6 @@
   --bg-btn-inactive: rgba(26, 22, 18, 0.04);
   --water: rgba(107, 138, 166, 0.1);
   --country-stroke: rgba(0, 0, 0, 0.15);
-  --header-h: 0px;
   --ui-font: system-ui, -apple-system, 'Inter', sans-serif;
 }
 
@@ -78,10 +77,7 @@ header {
   border-bottom: 1px solid var(--border-subtle);
   box-shadow: 0 2px 8px var(--shadow);
   background: var(--paper);
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  transition: padding 0.25s ease;
+  position: relative;
 }
 
 header::before {
@@ -90,24 +86,6 @@ header::before {
   top: 0; left: 0; right: 0;
   height: 3px;
   background: linear-gradient(to right, var(--accent), var(--ember), var(--hearth));
-}
-
-header.compact {
-  padding: 8px 20px;
-}
-
-header.compact h1 {
-  font-size: 20px;
-}
-
-header.compact .epigraph {
-  max-height: 0;
-  margin-top: 0;
-  opacity: 0;
-}
-
-header.compact .site-nav {
-  margin-top: 4px;
 }
 
 .theme-toggle {
@@ -139,7 +117,6 @@ h1 {
   letter-spacing: -0.01em;
   line-height: 1.05;
   color: var(--hearth);
-  transition: font-size 0.25s ease;
 }
 
 .subtitle {
@@ -156,9 +133,6 @@ h1 {
   color: var(--ember);
   margin-top: 12px;
   letter-spacing: 0.04em;
-  max-height: 40px;
-  overflow: hidden;
-  transition: max-height 0.25s ease, opacity 0.2s ease, margin-top 0.25s ease;
 }
 
 /* Site navigation */
@@ -167,7 +141,6 @@ h1 {
   justify-content: center;
   gap: 18px;
   margin-top: 12px;
-  transition: margin-top 0.25s ease;
 }
 
 .site-nav a {
@@ -280,7 +253,7 @@ h1 {
   gap: 8px;
   border-bottom: 1px solid rgba(26, 22, 18, 0.08);
   position: sticky;
-  top: var(--header-h, 0px);
+  top: 0;
   z-index: 10;
   box-shadow: 0 2px 8px var(--shadow);
 }
