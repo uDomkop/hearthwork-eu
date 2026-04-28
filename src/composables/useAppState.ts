@@ -8,7 +8,7 @@ interface AppState {
 
 const state = reactive<AppState>({
   currentView: 'standings',
-  selectedCountry: null,
+  selectedCountry: 'FRA',
   selectedNonFramework: null,
 });
 
