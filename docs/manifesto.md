@@ -1,5 +1,9 @@
 # Hearthwork EU Manifesto
-## A Union of Choice, Not Compulsion
+### A Union of Choice, Not Compulsion
+
+---
+
+*A Union built on choice, all the way down.*
 
 ---
 

@@ -1,6 +1,8 @@
 # Commentary on the Hearthwork EU Charter
 ### Interpretive Companion to the Fifteenth Draft
 
+---
+
 *This Commentary has no constitutional force. The Charter binds; this document explains. Where the Charter is silent, the Commentary cannot speak. Where the Charter is ambiguous, the Commentary offers the best reading — but the CJEU has the final word.*
 
 ---
