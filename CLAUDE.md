@@ -70,3 +70,7 @@ The `.md` files are governance/policy documents, not code docs:
 - `commentary.md` — Interpretive commentary on the charter
 
 When editing country data or Hestia definitions, consult `charter.md` for canonical definitions.
+
+## Data Conventions
+
+- Do not reference specific politicians, party names, or individuals in country notes, reasons, or any data files. Describe political situations in institutional terms (e.g. "pro-EU government elected", "authoritarian governance") rather than naming people or parties.

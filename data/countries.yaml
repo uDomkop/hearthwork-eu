@@ -259,17 +259,12 @@ HUN:
   name: Hungary
   standing: member
   population: 9.6
-  note: Currently in demotion proceedings
-  hestias: { fiscal: 0, shield: 0, gate: 1, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 1, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  note: Pro-EU government elected; reform agenda underway; demotion proceedings suspended
+  hestias: { fiscal: 0, shield: 1, gate: 1, loom: 1, green: 1, bench: 1, atlas: 0, forge: 0, library: 1, spring: 1, anchor: 0, lyre: 1, krone: 0, pharmacy: 0, beacon: 1, lattice: 0 }
   reasons:
-    fiscal: Retains the forint; convergence programme stalled.
-    shield: Partial — NATO member but obstructs joint EU defence initiatives.
-    loom: Non-participant — refuses digital governance alignment.
-    green: Non-participant — blocks climate legislation; no ETS engagement.
-    bench: Non-participant — Article 7 proceedings over judicial independence; rule-of-law conditionality triggered.
-    lyre: Non-participant — withdrew from cultural cooperation frameworks.
-    spring: Danube basin makes full water cooperation unavoidable.
+    fiscal: Retains the forint; euro adoption not yet on the agenda.
     anchor: Landlocked — no maritime coastline.
+    bench: Re-engaging — Article 7 proceedings suspended; judicial independence reforms initiated under new government.
 
 ROU:
   name: Romania
