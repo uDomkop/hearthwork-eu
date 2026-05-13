@@ -550,21 +550,19 @@ MAR:
 
 TUN:
   name: Tunisia
-  standing: compact
+  standing: strategic
   population: 12.5
-  note: Mediterranean partnership formalised
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 1, spring: 0, anchor: 1, lyre: 1, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
+  note: Mediterranean partnership; democratic backsliding under Saied
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0, anchor: 1, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
   reasons:
-    anchor: Full participant — central Mediterranean position; migration route management.
+    anchor: Observer — central Mediterranean position; migration route management.
 
 DZA:
   name: Algeria
-  standing: strategic
+  standing: non-eu
   population: 45.6
-  note: Mediterranean partnership, energy-focused
-  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0, anchor: 1, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
-  reasons:
-    anchor: Observer — major Mediterranean coastline; gas pipeline terminus; migration route.
+  note: Authoritarian governance precludes framework participation
+  hestias: { fiscal: 0, shield: 0, gate: 0, loom: 0, green: 0, bench: 0, atlas: 0, forge: 0, library: 0, spring: 0, anchor: 0, lyre: 0, krone: 0, pharmacy: 0, beacon: 0, lattice: 0 }
 
 # === STRATEGIC PARTNERS ===
 
