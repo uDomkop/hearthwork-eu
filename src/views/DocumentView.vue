@@ -28,7 +28,7 @@ const meta: Record<string, { title: string; description: string }> = {
   },
   commentary: {
     title: 'The Commentary — Hearthwork EU',
-    description: 'Interpretive companion to the Hearthwork EU Charter — answering the seven questions most likely to puzzle, frighten, or be misread.',
+    description: 'Interpretive companion to the Hearthwork EU Charter — answering the eleven questions most likely to puzzle, frighten, or be misread.',
   },
 };
 
