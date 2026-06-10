@@ -131,7 +131,13 @@ onMounted(async () => {
   try {
     const response = await fetch('./countries-50m.json');
     const world = await response.json();
-    geoFeatures.value = feature(world as Topology, world.objects.countries as GeometryCollection).features;
+    const feats = feature(world as Topology, world.objects.countries as GeometryCollection).features;
+    // Sort by projected area descending so smaller polygons (Vatican, Monaco,
+    // San Marino, Andorra, Liechtenstein, Malta) render last and sit on top
+    // of their larger neighbours — otherwise clicks land on France / Italy /
+    // Switzerland and the micro-state is unreachable.
+    feats.sort((a: any, b: any) => (pathGen.area(b) ?? 0) - (pathGen.area(a) ?? 0));
+    geoFeatures.value = feats;
     loading.value = false;
   } catch {
     error.value = true;

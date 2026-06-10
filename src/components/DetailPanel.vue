@@ -54,8 +54,10 @@ const nonFrameworkData = computed(() => {
   if (!state.selectedNonFramework) return null;
   const name = state.selectedNonFramework;
   const extra = typedNonFramework[name];
-  const noteText = typeof extra === 'object' ? extra.note : extra;
-  const isSuspended = typeof extra === 'object' && !!extra.suspended;
+  // Note: typeof null === 'object' — guard with !!extra so YAML `~` entries
+  // (Syria, Iraq, Iran, Saudi Arabia) don't crash on `.note` / `.suspended`.
+  const noteText = extra && typeof extra === 'object' ? extra.note : extra;
+  const isSuspended = !!extra && typeof extra === 'object' && !!extra.suspended;
   const note = noteText
     ? `Outside the Charter framework. ${noteText}`
     : 'Outside the Charter framework. No current standing as Member, Companion, Accord State, or Strategic Partner.';
