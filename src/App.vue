@@ -2,6 +2,7 @@
 import SiteNav from './components/SiteNav.vue';
 import { useRoute } from 'vue-router';
 import { useTheme } from './composables/useTheme';
+import { charterDraft } from './charterMeta';
 
 const route = useRoute();
 const { theme, toggle } = useTheme();
@@ -21,12 +22,12 @@ const { theme, toggle } = useTheme();
 
   <footer>
     <template v-if="route.path === '/'">
-      <div>Hearthwork EU Charter — Fifteenth Draft</div>
+      <div>Hearthwork EU Charter — {{ charterDraft }}</div>
       <div style="margin-top: 6px;">Indicative mapping. Real assignments would be made by the Independent Review Commission.</div>
     </template>
     <template v-else>
       <div class="quote">From many nations, one Union.<br>From one Union, many fires.</div>
-      <div>Hearthwork EU Charter — Fifteenth Draft</div>
+      <div>Hearthwork EU Charter — {{ charterDraft }}</div>
     </template>
   </footer>
 </template>

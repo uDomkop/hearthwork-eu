@@ -5,6 +5,7 @@ import charterMd from '../../docs/charter.md?raw';
 import manifestoMd from '../../docs/manifesto.md?raw';
 import commentaryMd from '../../docs/commentary.md?raw';
 import { useHead } from '../composables/useHead';
+import { charterDraft } from '../charterMeta';
 
 const props = defineProps<{
   source: 'charter' | 'manifesto' | 'commentary';
@@ -19,7 +20,7 @@ const sources: Record<string, string> = {
 const meta: Record<string, { title: string; description: string }> = {
   charter: {
     title: 'The Charter — Hearthwork EU',
-    description: 'The Hearthwork EU Charter, Fifteenth Draft. A constitutional charter for a living European Union: four standings, voluntary Hestias, paid-for votes, no permanent vetoes.',
+    description: `The Hearthwork EU Charter, ${charterDraft}. A constitutional charter for a living European Union: four standings, voluntary Hestias, paid-for votes, no permanent vetoes.`,
   },
   manifesto: {
     title: 'The Manifesto — Hearthwork EU',
