@@ -1,7 +1,7 @@
 # Hearthwork EU Charter
 ### A Constitutional Charter for a Living European Union
 
-**Fifteenth Draft**
+**Sixteenth Draft**
 
 ---
 
@@ -47,7 +47,7 @@ hereby establish this Charter as the foundation of a European Union composed of 
 
 **I.9 — Many Fires.** Multiple Hestias may coexist, overlap, and compete within the bounded space defined by I.10.
 
-**I.10 — Assembly-Locked Domains.** Cross-border foundational domains — the four freedoms, core single market rules, Union citizenship, immigration affecting free movement, and the rule of law framework — are governed exclusively at Assembly level.
+**I.10 — Assembly-Locked Domains.** Cross-border foundational domains — the four freedoms, core single market rules, Union citizenship, immigration affecting free movement, and the rule of law framework — are governed exclusively at Assembly level. No Hestia instrument may validate, cure, or retroactively authorise an act falling within an Assembly-Locked Domain that was taken without the required Assembly process at the time it was taken.
 
 ---
 
@@ -188,6 +188,7 @@ Voting rights in any Hestia require Fiscal Key payment.
 1. **No subscription, no vote.**
 2. **Calculation** based on GDP and domain exposure, certified by the Independent Review Commission.
    - **Accord State discount.** Accord States pay a discounted Fiscal Key reflecting their narrower standing: Council vote only, no Modular Parliament vote, no direct MEP elections. The discount rate is fixed in each Hestia's founding pact and applies uniformly to all Accord State participants in that Hestia. The rate may be amended only by Hestia Council supermajority with the concurrence of the affected Accord State or States. The discounted rate may not fall so low as to amount to cost-free participation; a published floor, set by the Independent Review Commission, preserves the principle that voice is bought with contribution.
+   - **Companion floor.** Companions participating in a Hestia shall contribute no less than a published minimum floor, set by the Independent Review Commission and calibrated to reflect their governance rights and solidarity obligations in that Hestia. The floor may not be so low as to amount to cost-free participation. The principle that voice is bought with contribution applies to Companions as to Members.
 3. **Light-Out Clause** — non-payment suspends voting rights after a sixty-day cure period. Sustained non-payment triggers withdrawal.
 4. **Force Majeure** — a state experiencing a documented constitutional crisis, natural disaster, or acute economic emergency (as certified by the Independent Review Commission) may request suspension of the Light-Out Clause for up to twelve months. The request must be supported by evidence and is subject to CJEU expedited review. During the suspension, the state retains consultation rights but not voting rights. The Force Majeure suspension may be renewed once for a further six months; beyond that, the Light-Out Clause resumes automatically.
 5. **Ring-Fencing** — each Hestia budget is isolated. Suspension in one does not affect others.
@@ -220,6 +221,16 @@ Where a Hestia rule in force is found to conflict with the Assembly Baseline —
 4. The Assembly may override the Hestia rule only by a three-quarters supermajority of both state count and population. The Hestia may amend its rule to resolve the conflict by ordinary Council procedure.
 5. Pending resolution, the contested Hestia obligation is suspended for affected states without penalty.
 
+## VI.8A — Ultra Vires State Action
+
+Where a participating state takes a unilateral action — not a legislative proposal — that another participating state, Hestia Council, or the Commission believes touches an Assembly-Locked Domain (I.10) or exceeds that state's pact-defined authority, the following procedure applies:
+
+1. **Referral.** Any participating state, Hestia Council, or the Commission may refer the action to the ILCB within thirty days of the action becoming known. The referral must describe the action and identify the Assembly-Locked Domain or pact provision said to be violated.
+2. **Expedited assessment.** The ILCB shall issue a preliminary assessment within fourteen days. If the ILCB finds a prima facie constitutional violation, the action is provisionally suspended pending full assessment. The acting state may seek an interim order from the CJEU within five days to continue the action pending the full assessment.
+3. **Full ruling.** The ILCB's full assessment shall be issued within thirty days of referral. Any participating state or the Commission may challenge the assessment through expedited CJEU review.
+4. **Compliance.** If the ILCB finds the action ultra vires, the state has thirty days to bring the action into conformity with the Charter. Non-compliance after thirty days triggers the Light-Out Clause (VI.4 ¶3) in the relevant Hestia and may be referred to the CJEU for expedited enforcement proceedings.
+5. **No retroactive cure.** A subsequent Hestia instrument or Coordination Directive (VI.11) may not validate or cure the period of the action prior to any finding of conformity. This article does not prejudice claims by other states for harm caused during the period of the ultra vires action.
+
 ## VI.9 — Promotion to the Assembly Baseline
 
 1. **Parliamentary Initiative** — two-thirds supermajority, with sortition panel advice
@@ -234,11 +245,23 @@ The cost is named honestly: a Member that refuses permanently pays in democratic
 ## VI.10 — Observer Seats
 
 1. **Eligibility.** Any Member, Companion, or Accord State not currently a participant in a Hestia may take an observer seat in that Hestia. Strategic Partners with demonstrated subject-matter interest may take an observer seat upon application to the Hestia Council. The Council may not refuse an eligible applicant without published reasons reviewable by the Independent Review Commission.
-2. **Rights of observers.** Observers may attend open sessions of the Hestia Council and of the Modular Parliament when sitting with the Hestia's roster. They receive all non-confidential documents on the same timeline as participants. They may speak at agenda points relevant to their state, submit written interventions, and propose amendments for participants' consideration. They may not vote, second motions, or invoke procedural motions reserved to participants.
+2. **Rights of observers.** Observers may attend open sessions of the Hestia Council and of the Modular Parliament when sitting with the Hestia's roster. They receive all non-confidential documents on the same timeline as participants. They may speak at agenda points relevant to their state, submit written interventions, propose amendments for participants' consideration, and co-initiate legislative instruments jointly with at least one full participant, who carries formal proposer standing; the observer's co-authorship is recorded in the instrument's legislative history and in the Union Register. They may not vote, second motions, or invoke procedural motions reserved to participants.
 3. **Confidentiality.** Sessions classified by the Council as confidential under criteria published in the Union Register are closed to observers. Declassified summaries shall be provided to observers within thirty days of the session.
 4. **Cost.** Observer status carries an administrative fee set by the Hestia Council, calibrated to cover its administrative cost and not exceeding it. The Fiscal Key (VI.4) is unaffected; observer status confers no voting rights and creates no Fiscal Key obligation.
 5. **Termination.** Observer status is held until the observer withdraws, accedes as a participant, or is removed by qualified majority of the Hestia Council for documented obstruction of proceedings. Removal is reviewable by the Independent Review Commission.
 6. **Relationship to other rights.** Observer status is in addition to, and does not replace, consultation rights under VII.4, the suspensive veto under VII.5 (held only by Companions), or remedies under VII.3. A state may hold observer status concurrently with any of these rights for which it is eligible.
+
+## VI.11 — Hestia Emergency Coordination
+
+Where a participating state faces a sudden, acute crisis falling within a Hestia's domain — including a border surge, market disruption, public health emergency, or comparable exigency within the Hestia's pact-defined competence — the following emergency coordination procedure is available independently of Title X's Emergency Mode:
+
+1. **Notification.** The affected state shall notify the Hestia Council within twenty-four hours of the emergency arising, describing the nature of the emergency, current capacity status, and any proposed response measures. Failure to notify does not invalidate a subsequent notification but is noted in Council deliberations.
+2. **Convening obligation.** The Hestia Council shall convene within forty-eight hours of notification. All Companion participants hold full deliberative participation in any session convened under this Article. Accord State participants hold their standard Council voice. Observers are notified and may speak.
+3. **Coordination Directive.** If the Council determines that an emergency exists within the Hestia's domain, it may issue a Coordination Directive by ordinary vote specifying: the measures authorised, their territorial scope, duration (not exceeding ninety days per issuance), conditions on implementation, and reporting obligations. Coordination Directives are prospective instruments only; they do not validate or cure any measure taken before their issuance.
+4. **Unilateral measures.** A state that takes emergency measures within the Hestia's domain without a prior Coordination Directive shall notify the Council within twenty-four hours of implementation. Any such measure expires automatically after fourteen days unless the Council issues a Coordination Directive authorising continuation of the measure from the date of the Directive forward. No Coordination Directive may extend the legal effect of any action taken prior to its issuance; it authorises continuation only.
+5. **Assembly-Locked ceiling.** No Coordination Directive may authorise any measure falling within an Assembly-Locked Domain (I.10). The ILCB may review any Coordination Directive on referral from any participant within thirty days of issuance.
+6. **Duration and renewal.** A Coordination Directive expires at the end of its specified period. Renewal requires a fresh Council assessment and vote. Total duration under successive renewals may not exceed two hundred and seventy days, after which any continuation requires Emergency Mode under Title X.
+7. **Relationship to VI.8A.** This Article governs emergency measures within a Hestia's competence. Where an emergency measure touches an Assembly-Locked Domain, VI.8A applies and this Article does not authorise the measure.
 
 ---
 
@@ -413,4 +436,4 @@ Articles in this Charter are identified by Title and sequence within Title — e
 
 *From many nations, one union was forged. From that one union, many fires now burn — each lit by choice, each tended by those who gather around it.*
 
-*Fifteenth Draft — April 2026*
+*Sixteenth Draft — May 2026*

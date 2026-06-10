@@ -6,7 +6,7 @@
 # `explanation` is the fuller text shown when a Hestia is selected.
 
 - key: fiscal
-  label: Fiscal Hearth
+  label: Fiscal
   sub: Eurozone
   capital: Frankfurt
   capitalCoords: [8.68, 50.11]

@@ -32,6 +32,7 @@ const hestiaPopulation = computed(() => {
 
 <template>
   <div class="hestia-bar">
+    <p v-if="state.currentView === 'standings'" class="hestia-bar-label">Tap a fire to see who tends it.</p>
     <div class="hestia-buttons">
       <button
         class="hestia-btn standings"

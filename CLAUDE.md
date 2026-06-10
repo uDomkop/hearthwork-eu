@@ -96,4 +96,8 @@ The 16 Hestias are: fiscal, krone, shield, gate, atlas, anchor, bench, green, fo
 
 The `.md` files in `docs/` are governance/policy documents, not code docs. When editing country data or Hestia definitions, consult `docs/charter.md` for canonical definitions. The charter is versioned by draft (currently the Fifteenth Draft); superseded drafts are archived in `docs/charters/`.
 
-Terminology: the standing previously called "Compact" is now "Accord State" everywhere user-facing — only the YAML key `compact` and CSS class names retain the old name.
+When editing country data or Hestia definitions, consult `charter.md` for canonical definitions.
+
+## Data Conventions
+
+- Do not reference specific politicians, party names, or individuals in country notes, reasons, or any data files. Describe political situations in institutional terms (e.g. "pro-EU government elected", "authoritarian governance") rather than naming people or parties.

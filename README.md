@@ -33,4 +33,4 @@ npm run preview    # preview the production build
 
 ## Tech
 
-Vanilla JS, [D3-geo](https://github.com/d3/d3-geo), [Vite](https://vite.dev). No framework. YAML data files imported at build time. TopoJSON vendored locally.
+Vanilla JS, [D3-geo](https://github.com/d3/d3-geo), [Vite](https://vite.dev). Vue. YAML data files imported at build time. TopoJSON vendored locally.
